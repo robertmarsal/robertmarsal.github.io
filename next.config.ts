@@ -2,13 +2,11 @@ import type { NextConfig } from "next";
 
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
-let assetPrefix = "";
 let basePath = "";
 
 if (isGithubActions) {
   const repo = process.env.GITHUB_REPOSITORY?.replace(/.*?\//, "");
 
-  assetPrefix = `/${repo}/`;
   basePath = `/${repo}`;
 }
 
@@ -26,12 +24,6 @@ const nextConfig: NextConfig = {
    * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
    */
   basePath: basePath,
-
-  /**
-   * Set asset prefix.
-   * @see https://nextjs.org/docs/app/api-reference/config/next-config-js/assetPrefix
-   */
-  assetPrefix: assetPrefix,
 
   /**
    * Disable server-based image optimization. Next.js does not support
