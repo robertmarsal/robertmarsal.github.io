@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Robert Marsal | Blog",
+  title: "Robert Marsal | Home",
 };
 
 export default function RootLayout({
