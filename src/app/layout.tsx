@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -26,7 +27,28 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <nav>
+          <div className="container mx-auto px-4 py-2">
+            <div className="flex justify-left font-[family-name:var(--font-geist-mono)]">
+              <ul className="flex space-x-8 py-4">
+                <li>
+                  <Link href="/" className="hover:text-red-400">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/books" className="hover:text-red-400">
+                    Books
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div className="container mx-auto px-4 py-8 font-[family-name:var(--font-geist-mono)]">
+          {children}
+        </div>
       </body>
     </html>
   );
