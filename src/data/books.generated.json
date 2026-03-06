@@ -1,0 +1,3650 @@
+[
+  {
+    "isbn": "9781472258229",
+    "title": "Kindred",
+    "author": "Octavia E. Butler",
+    "rating": 4,
+    "dateRead": "2026",
+    "pages": 295
+  },
+  {
+    "isbn": "9781890447250",
+    "title": "Venus Drive",
+    "author": "Sam Lipsyte",
+    "rating": 2,
+    "dateRead": "2026",
+    "pages": 144
+  },
+  {
+    "isbn": "9781844168682",
+    "title": "Nemesis (The Horus Heresy, #13)",
+    "author": "James Swallow",
+    "rating": 4,
+    "dateRead": "2026",
+    "pages": 507
+  },
+  {
+    "isbn": "9788466337113",
+    "title": "Los detectives salvajes",
+    "author": "Roberto Bolaño",
+    "rating": 4,
+    "dateRead": "2026",
+    "pages": 760
+  },
+  {
+    "isbn": "gr-54870256",
+    "title": "There Is No Antimemetics Division",
+    "author": "qntm",
+    "rating": 4,
+    "dateRead": "2026",
+    "pages": 220
+  },
+  {
+    "isbn": "9781844168088",
+    "title": "A Thousand Sons (The Horus Heresy, #12)",
+    "author": "Graham McNeill",
+    "rating": 5,
+    "dateRead": "2026",
+    "pages": 558
+  },
+  {
+    "isbn": "9788498000832",
+    "title": "Ubik",
+    "author": "Philip K. Dick",
+    "rating": 3,
+    "dateRead": "2025",
+    "pages": 288
+  },
+  {
+    "isbn": "gr-56791389",
+    "title": "Dungeon Crawler Carl (Dungeon Crawler Carl, #1)",
+    "author": "Matt Dinniman",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 446
+  },
+  {
+    "isbn": "9780008536817",
+    "title": "Babysitter",
+    "author": "Joyce Carol Oates",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 435
+  },
+  {
+    "isbn": "9781844167296",
+    "title": "Fallen Angels (The Horus Heresy, #11)",
+    "author": "Mike  Lee",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 416
+  },
+  {
+    "isbn": "9781782167112",
+    "title": "Learning Linux Binary Analysis",
+    "author": "Ryan \"Elfmaster\" O'Neill",
+    "rating": 3,
+    "dateRead": "2025",
+    "pages": 282
+  },
+  {
+    "isbn": "9780765389091",
+    "title": "When the Moon Hits Your Eye",
+    "author": "John Scalzi",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 326
+  },
+  {
+    "isbn": "9781804948675",
+    "title": "The Book of Money: How to feel good (or better) about your finances",
+    "author": "Monzo",
+    "rating": 5,
+    "dateRead": "2025",
+    "pages": 292
+  },
+  {
+    "isbn": "9781844166824",
+    "title": "Tales of Heresy (The Horus Heresy, #10)",
+    "author": "Nick Kyme",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 416
+  },
+  {
+    "isbn": "9781573440943",
+    "title": "The Wall",
+    "author": "Marlen Haushofer",
+    "rating": 5,
+    "dateRead": "2025",
+    "pages": 240
+  },
+  {
+    "isbn": "9781844166060",
+    "title": "Mechanicum (The Horus Heresy, #9)",
+    "author": "Graham McNeill",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 416
+  },
+  {
+    "isbn": "9781591846406",
+    "title": "Turn the Ship Around!: A True Story of Turning Followers into Leaders",
+    "author": "L. David Marquet",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 272
+  },
+  {
+    "isbn": "9781844165490",
+    "title": "Battle for the Abyss (The Horus Heresy, #8)",
+    "author": "Ben Counter",
+    "rating": 3,
+    "dateRead": "2025",
+    "pages": 416
+  },
+  {
+    "isbn": "9789870737940",
+    "title": "Cadáver exquisito",
+    "author": "Agustina Bazterrica",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 249
+  },
+  {
+    "isbn": "9780141321059",
+    "title": "The Call of the Wild",
+    "author": "Jack London",
+    "rating": 3,
+    "dateRead": "2025",
+    "pages": 150
+  },
+  {
+    "isbn": "9789124145590",
+    "title": "'Salem's Lot",
+    "author": "Stephen  King",
+    "rating": 3,
+    "dateRead": "2025",
+    "pages": 751
+  },
+  {
+    "isbn": "9781844165360",
+    "title": "Legion (The Horus Heresy, #7)",
+    "author": "Dan Abnett",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 416
+  },
+  {
+    "isbn": "9780241558348",
+    "title": "The BFG",
+    "author": "Roald Dahl",
+    "rating": 5,
+    "dateRead": "2025",
+    "pages": 384
+  },
+  {
+    "isbn": "9781844165087",
+    "title": "Descent of Angels (The Horus Heresy, #6)",
+    "author": "Mitchel Scanlon",
+    "rating": 3,
+    "dateRead": "2025",
+    "pages": 413
+  },
+  {
+    "isbn": "9780679735694",
+    "title": "Will You Please Be Quiet, Please?",
+    "author": "Raymond Carver",
+    "rating": 3,
+    "dateRead": "2025",
+    "pages": 251
+  },
+  {
+    "isbn": "9781844164769",
+    "title": "Fulgrim (The Horus Heresy, #5)",
+    "author": "Graham McNeill",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 512
+  },
+  {
+    "isbn": "9781844164592",
+    "title": "The Flight of the Eisenstein (The Horus Heresy, #4)",
+    "author": "James Swallow",
+    "rating": 3,
+    "dateRead": "2025",
+    "pages": 416
+  },
+  {
+    "isbn": "9780965818674",
+    "title": "The Time Traveler's Wife",
+    "author": "Audrey Niffenegger",
+    "rating": 5,
+    "dateRead": "2025",
+    "pages": 537
+  },
+  {
+    "isbn": "9781408845042",
+    "title": "Kitchen Confidential: Adventures in the Culinary Underbelly",
+    "author": "Anthony Bourdain",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 362
+  },
+  {
+    "isbn": "9781844163939",
+    "title": "Galaxy in Flames (The Horus Heresy, #3)",
+    "author": "Ben Counter",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 416
+  },
+  {
+    "isbn": "9781844163700",
+    "title": "False Gods (The Horus Heresy, #2)",
+    "author": "Graham McNeill",
+    "rating": 5,
+    "dateRead": "2025",
+    "pages": 416
+  },
+  {
+    "isbn": "9781844162949",
+    "title": "Horus Rising (The Horus Heresy, #1)",
+    "author": "Dan Abnett",
+    "rating": 5,
+    "dateRead": "2025",
+    "pages": 416
+  },
+  {
+    "isbn": "9781593070212",
+    "title": "Berserk, Vol. 2 (Berserk, #2)",
+    "author": "Kentaro Miura",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 240
+  },
+  {
+    "isbn": "9781567923049",
+    "title": "The Tartar Steppe",
+    "author": "Dino Buzzati",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 198
+  },
+  {
+    "isbn": "9781593070205",
+    "title": "Berserk, Vol. 1 (Berserk, #1)",
+    "author": "Kentaro Miura",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 224
+  },
+  {
+    "isbn": "9781680683585",
+    "title": "Not Till We Are Lost (Bobiverse)",
+    "author": "Dennis E. Taylor",
+    "rating": 5,
+    "dateRead": "2025",
+    "pages": 361
+  },
+  {
+    "isbn": "9780141185774",
+    "title": "King, Queen, Knave",
+    "author": "Vladimir Nabokov",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 288
+  },
+  {
+    "isbn": "9781955811569",
+    "title": "The Startup CTO's Handbook: Essential skills and best practices for high performing engineering teams",
+    "author": "Zach Goldberg",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 274
+  },
+  {
+    "isbn": "9780062953827",
+    "title": "Hustle Harder, Hustle Smarter",
+    "author": "50 Cent",
+    "rating": 5,
+    "dateRead": "2025",
+    "pages": 304
+  },
+  {
+    "isbn": "9781680682267",
+    "title": "Heaven's River (Bobiverse, #4)",
+    "author": "Dennis E. Taylor",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 638
+  },
+  {
+    "isbn": "9781718502703",
+    "title": "Python Crash Course: A Hands-On, Project-Based Introduction to Programming",
+    "author": "Eric Matthes",
+    "rating": 3,
+    "dateRead": "2025",
+    "pages": 514
+  },
+  {
+    "isbn": "9780316920049",
+    "title": "Infinite Jest",
+    "author": "David Foster Wallace",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 1079
+  },
+  {
+    "isbn": "gr-220829405",
+    "title": "Conclave",
+    "author": "Robert   Harris",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 382
+  },
+  {
+    "isbn": "gr-35506021",
+    "title": "All These Worlds (Bobiverse, #3)",
+    "author": "Dennis E. Taylor",
+    "rating": 5,
+    "dateRead": "2025",
+    "pages": 336
+  },
+  {
+    "isbn": "gr-34153598",
+    "title": "For We Are Many (Bobiverse, #2)",
+    "author": "Dennis E. Taylor",
+    "rating": 5,
+    "dateRead": "2025",
+    "pages": 384
+  },
+  {
+    "isbn": "gr-17622722",
+    "title": "Nine Stories",
+    "author": "J.D. Salinger",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 302
+  },
+  {
+    "isbn": "9781680680584",
+    "title": "We Are Legion (We Are Bob) (Bobiverse, #1)",
+    "author": "Dennis E. Taylor",
+    "rating": 5,
+    "dateRead": "2025",
+    "pages": 299
+  },
+  {
+    "isbn": "9780446350983",
+    "title": "Presumed Innocent (Kindle County Legal Thriller, #1)",
+    "author": "Scott Turow",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 496
+  },
+  {
+    "isbn": "9781837632749",
+    "title": "Building Data Science Applications with FastAPI: Develop, manage, and deploy efficient machine learning applications with Python, 2nd Edition",
+    "author": "François Voron",
+    "rating": 5,
+    "dateRead": "2025",
+    "pages": 422
+  },
+  {
+    "isbn": "9780262538473",
+    "title": "The Invincible",
+    "author": "Stanisław Lem",
+    "rating": 4,
+    "dateRead": "2025",
+    "pages": 219
+  },
+  {
+    "isbn": "9780061992704",
+    "title": "Sh*t My Dad Says",
+    "author": "Justin Halpern",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 159
+  },
+  {
+    "isbn": "9780061124297",
+    "title": "We Need to Talk About Kevin",
+    "author": "Lionel Shriver",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 400
+  },
+  {
+    "isbn": "9781849708579",
+    "title": "First and Only (Gaunt's Ghosts #1)",
+    "author": "Dan Abnett",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 416
+  },
+  {
+    "isbn": "gr-58316190",
+    "title": "Robot",
+    "author": "Adam Wiśniewski-Snerg",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 335
+  },
+  {
+    "isbn": "9781771667609",
+    "title": "The Employees",
+    "author": "Olga Ravn",
+    "rating": 3,
+    "dateRead": "2024",
+    "pages": 139
+  },
+  {
+    "isbn": "9781784967024",
+    "title": "The Magos (Eisenhorn, #4)",
+    "author": "Dan Abnett",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 720
+  },
+  {
+    "isbn": "9781844164608",
+    "title": "Ravenor Rogue (Ravenor #3)",
+    "author": "Dan Abnett",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 320
+  },
+  {
+    "isbn": "9780770430078",
+    "title": "Life of Pi",
+    "author": "Yann Martel",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 460
+  },
+  {
+    "isbn": "9781784965266",
+    "title": "Ravenor Returned (Ravenor #2)",
+    "author": "Dan Abnett",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 416
+  },
+  {
+    "isbn": "9780812972122",
+    "title": "The Mysterious Island",
+    "author": "Jules Verne",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 723
+  },
+  {
+    "isbn": "9780385334143",
+    "title": "Mother Night",
+    "author": "Kurt Vonnegut Jr.",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 282
+  },
+  {
+    "isbn": "9781784963316",
+    "title": "Ravenor (Ravenor #1)",
+    "author": "Dan Abnett",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 368
+  },
+  {
+    "isbn": "9780307744661",
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 389
+  },
+  {
+    "isbn": "9780857870711",
+    "title": "Hereticus (Eisenhorn #3)",
+    "author": "Dan Abnett",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 416
+  },
+  {
+    "isbn": "9780241398852",
+    "title": "The Man from the Future: The Visionary Life of John von Neumann",
+    "author": "Ananyo Bhattacharya",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 354
+  },
+  {
+    "isbn": "9781849709620",
+    "title": "Malleus (Eisenhorn #2)",
+    "author": "Dan Abnett",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 416
+  },
+  {
+    "isbn": "9781846683145",
+    "title": "The Checklist Manifesto. How to Get Things Right",
+    "author": "Atul Gawande",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 209
+  },
+  {
+    "isbn": "9780062434128",
+    "title": "Razzmatazz",
+    "author": "Christopher Moore",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 390
+  },
+  {
+    "isbn": "gr-18400553",
+    "title": "Porno (Mark Renton, #3)",
+    "author": "Irvine Welsh",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 496
+  },
+  {
+    "isbn": "9781849708739",
+    "title": "Xenos (Eisenhorn #1)",
+    "author": "Dan Abnett",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 416
+  },
+  {
+    "isbn": "9780062433978",
+    "title": "Noir",
+    "author": "Christopher Moore",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 339
+  },
+  {
+    "isbn": "gr-36130437",
+    "title": "Memory's Legion",
+    "author": "James S.A. Corey",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 423
+  },
+  {
+    "isbn": "9781931541749",
+    "title": "The Road Back",
+    "author": "Erich Maria Remarque",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 352
+  },
+  {
+    "isbn": "9781939905215",
+    "title": "The Fisherman",
+    "author": "John  Langan",
+    "rating": 3,
+    "dateRead": "2024",
+    "pages": 266
+  },
+  {
+    "isbn": "9788401353154",
+    "title": "El asesino hipocondríaco",
+    "author": "Juan Jacinto Muñoz-Rengel",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 224
+  },
+  {
+    "isbn": "gr-52163147",
+    "title": "The Hidden Girl and Other Stories",
+    "author": "Ken Liu",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 411
+  },
+  {
+    "isbn": "9780356510392",
+    "title": "Leviathan Falls (The Expanse, #9)",
+    "author": "James S.A. Corey",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 528
+  },
+  {
+    "isbn": "9781399600514",
+    "title": "Eyes Guts Throat Bones",
+    "author": "Moïra Fowley-Doyle",
+    "rating": 2,
+    "dateRead": "2024",
+    "pages": 304
+  },
+  {
+    "isbn": "9780316332873",
+    "title": "Tiamat's Wrath (The Expanse, #8)",
+    "author": "James S.A. Corey",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 534
+  },
+  {
+    "isbn": "9780876853627",
+    "title": "Love Is a Dog from Hell",
+    "author": "Charles Bukowski",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 312
+  },
+  {
+    "isbn": "9781529017229",
+    "title": "Our Wives Under the Sea",
+    "author": "Julia Armfield",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 240
+  },
+  {
+    "isbn": "9781328546395",
+    "title": "AI Superpowers: China, Silicon Valley, and the New World Order",
+    "author": "Kai-Fu Lee",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 255
+  },
+  {
+    "isbn": "9780316332828",
+    "title": "Persepolis Rising (The Expanse, #7)",
+    "author": "James S.A. Corey",
+    "rating": 5,
+    "dateRead": "2024",
+    "pages": 608
+  },
+  {
+    "isbn": "9780007119318",
+    "title": "Murder on the Orient Express (Hercule Poirot, #10)",
+    "author": "Agatha Christie",
+    "rating": 3,
+    "dateRead": "2024",
+    "pages": 274
+  },
+  {
+    "isbn": "9780241363560",
+    "title": "Everything You Ever Wanted",
+    "author": "Luiza Sauma",
+    "rating": 3,
+    "dateRead": "2024",
+    "pages": 272
+  },
+  {
+    "isbn": "9780316392358",
+    "title": "Calypso",
+    "author": "David Sedaris",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 272
+  },
+  {
+    "isbn": "9780241648506",
+    "title": "In Memoriam",
+    "author": "Alice Winn",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 386
+  },
+  {
+    "isbn": "9781732102200",
+    "title": "A Philosophy of Software Design",
+    "author": "John Ousterhout",
+    "rating": 4,
+    "dateRead": "2024",
+    "pages": 190
+  },
+  {
+    "isbn": "gr-348914",
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 359
+  },
+  {
+    "isbn": "9780330543934",
+    "title": "The Master and Margarita",
+    "author": "Mikhail Bulgakov",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 367
+  },
+  {
+    "isbn": "9781492077541",
+    "title": "The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise",
+    "author": "Gregor Hohpe",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 364
+  },
+  {
+    "isbn": "9780356504261",
+    "title": "Babylon’s Ashes (The Expanse, #6)",
+    "author": "James S.A. Corey",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 532
+  },
+  {
+    "isbn": "9781529111798",
+    "title": "I Who Have Never Known Men",
+    "author": "Jacqueline Harpman",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 188
+  },
+  {
+    "isbn": "9781555977887",
+    "title": "Her Body and Other Parties: Stories",
+    "author": "Carmen Maria Machado",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 248
+  },
+  {
+    "isbn": "9780241557006",
+    "title": "Concorde: The thrilling account of history’s most extraordinary airliner",
+    "author": "Mike Bannister",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 464
+  },
+  {
+    "isbn": "9780007299263",
+    "title": "Howl's Moving Castle (Howl's Moving Castle, #1)",
+    "author": "Diana Wynne Jones",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 302
+  },
+  {
+    "isbn": "9780316217590",
+    "title": "Nemesis Games (The Expanse, #5)",
+    "author": "James S.A. Corey",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 536
+  },
+  {
+    "isbn": "9781926444314",
+    "title": "Frankenstein",
+    "author": "Mary Wollstonecraft Shelley",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 234
+  },
+  {
+    "isbn": "gr-17905849",
+    "title": "Books of Blood: Volume 6",
+    "author": "Clive Barker",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 183
+  },
+  {
+    "isbn": "9781591845324",
+    "title": "Leaders Eat Last: Why Some Teams Pull Together and Others Don't",
+    "author": "Simon Sinek",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 350
+  },
+  {
+    "isbn": "gr-11222940",
+    "title": "No Longer Human",
+    "author": "Osamu Dazai",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 177
+  },
+  {
+    "isbn": "gr-41562192",
+    "title": "Straight Outta Crawley: Memoirs of a Distinctly Average Human Being",
+    "author": "Romesh Ranganathan",
+    "rating": 3,
+    "dateRead": "2023",
+    "pages": 247
+  },
+  {
+    "isbn": "gr-18656030",
+    "title": "Cibola Burn (The Expanse, #4)",
+    "author": "James S.A. Corey",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 581
+  },
+  {
+    "isbn": "9780876855546",
+    "title": "Wait Until Spring, Bandini (The Saga of Arturo Bandini, #1)",
+    "author": "John Fante",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 266
+  },
+  {
+    "isbn": "9781492083733",
+    "title": "Certified Kubernetes Application Developer (CKAD) Study Guide: In-Depth Guidance and Practice",
+    "author": "Benjamin Muschko",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 188
+  },
+  {
+    "isbn": "9798804636129",
+    "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+    "author": "Mark Manson",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 212
+  },
+  {
+    "isbn": "9781910702604",
+    "title": "The Noise of Time",
+    "author": "Julian Barnes",
+    "rating": 3,
+    "dateRead": "2023",
+    "pages": 184
+  },
+  {
+    "isbn": "9780679720225",
+    "title": "The Fall (Vintage International)",
+    "author": "Albert Camus",
+    "rating": 2,
+    "dateRead": "2023",
+    "pages": 147
+  },
+  {
+    "isbn": "gr-16131032",
+    "title": "Abaddon’s Gate (The Expanse, #3)",
+    "author": "James S.A. Corey",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 539
+  },
+  {
+    "isbn": "gr-17905843",
+    "title": "Books of Blood: Volume 5",
+    "author": "Clive Barker",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 160
+  },
+  {
+    "isbn": "gr-57460856",
+    "title": "Greenlights",
+    "author": "Matthew McConaughey",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 289
+  },
+  {
+    "isbn": "gr-49906937",
+    "title": "Hollywood",
+    "author": "Charles Bukowski",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 263
+  },
+  {
+    "isbn": "9781841499901",
+    "title": "Caliban’s War (The Expanse, #2)",
+    "author": "James S.A. Corey",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 624
+  },
+  {
+    "isbn": "9781942788829",
+    "title": "Team Topologies: Organizing Business and Technology Teams for Fast Flow",
+    "author": "Matthew    Skelton",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 240
+  },
+  {
+    "isbn": "9780374530631",
+    "title": "Wise Blood",
+    "author": "Flannery O'Connor",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 256
+  },
+  {
+    "isbn": "9781529900057",
+    "title": "Ultra-processed People",
+    "author": "Chris van Tulleken",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 376
+  },
+  {
+    "isbn": "gr-27823798",
+    "title": "Rebecca",
+    "author": "Daphne du Maurier",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 441
+  },
+  {
+    "isbn": "9780226043982",
+    "title": "Concrete",
+    "author": "Thomas Bernhard",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 156
+  },
+  {
+    "isbn": "9781916277182",
+    "title": "Cursed Bunny",
+    "author": "Bora Chung",
+    "rating": 3,
+    "dateRead": "2023",
+    "pages": 251
+  },
+  {
+    "isbn": "9781841499888",
+    "title": "Leviathan Wakes (The Expanse, #1)",
+    "author": "James S.A. Corey",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 561
+  },
+  {
+    "isbn": "9780369705808",
+    "title": "The Great Glorious Goddamn of It All: A Novel – A Whimsical Magical Realism Story of the Wild West",
+    "author": "Josh Ritter",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 304
+  },
+  {
+    "isbn": "9781848549562",
+    "title": "What If? Serious Scientific Answers to Absurd Hypothetical Questions",
+    "author": "Randall Munroe",
+    "rating": 3,
+    "dateRead": "2023",
+    "pages": 304
+  },
+  {
+    "isbn": "gr-23291",
+    "title": "Dubliners",
+    "author": "James Joyce",
+    "rating": 3,
+    "dateRead": "2023",
+    "pages": 368
+  },
+  {
+    "isbn": "9781529083514",
+    "title": "Sea of Tranquility",
+    "author": "Emily St. John Mandel",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 258
+  },
+  {
+    "isbn": "9781491973899",
+    "title": "The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change",
+    "author": "Camille Fournier",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 226
+  },
+  {
+    "isbn": "9780735243347",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "author": "Gabrielle Zevin",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 399
+  },
+  {
+    "isbn": "9780345539434",
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 396
+  },
+  {
+    "isbn": "gr-23463279",
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 562
+  },
+  {
+    "isbn": "9780812972153",
+    "title": "Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture",
+    "author": "David Kushner",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 339
+  },
+  {
+    "isbn": "9780099286714",
+    "title": "The Fermata",
+    "author": "Nicholson Baker",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 303
+  },
+  {
+    "isbn": "gr-42628604",
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 560
+  },
+  {
+    "isbn": "9780241383100",
+    "title": "Bad Behaviour",
+    "author": "Mary Gaitskill",
+    "rating": 3,
+    "dateRead": "2023",
+    "pages": 208
+  },
+  {
+    "isbn": "9780872861565",
+    "title": "The Most Beautiful Woman in Town & Other Stories",
+    "author": "Charles Bukowski",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 240
+  },
+  {
+    "isbn": "gr-50224049",
+    "title": "How to Kill Your Family",
+    "author": "Bella Mackie",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 355
+  },
+  {
+    "isbn": "9781785787034",
+    "title": "Between the Devil and the Deep Blue Sea: The mission to rescue the hostages the world forgot",
+    "author": "Colin Freeman",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 243
+  },
+  {
+    "isbn": "9780241981672",
+    "title": "The Garden of the Gods (Corfu Trilogy, #3)",
+    "author": "Gerald Durrell",
+    "rating": 5,
+    "dateRead": "2023",
+    "pages": 195
+  },
+  {
+    "isbn": "9780345816023",
+    "title": "12 Rules for Life: An Antidote to Chaos",
+    "author": "Jordan B. Peterson",
+    "rating": 3,
+    "dateRead": "2023",
+    "pages": 409
+  },
+  {
+    "isbn": "9780099511755",
+    "title": "Gravity's Rainbow",
+    "author": "Thomas Pynchon",
+    "rating": 4,
+    "dateRead": "2023",
+    "pages": 902
+  },
+  {
+    "isbn": "9780872865433",
+    "title": "More Notes of a Dirty Old Man: The Uncollected Columns",
+    "author": "Charles Bukowski",
+    "rating": 3,
+    "dateRead": "2022",
+    "pages": 248
+  },
+  {
+    "isbn": "9780060536350",
+    "title": "Barbarians at the Gate: The Fall of RJR Nabisco",
+    "author": "Bryan Burrough",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 592
+  },
+  {
+    "isbn": "9781617299599",
+    "title": "100 Go Mistakes and How to Avoid Them",
+    "author": "Teiva Harsanyi",
+    "rating": 5,
+    "dateRead": "2022",
+    "pages": 384
+  },
+  {
+    "isbn": "9780872861558",
+    "title": "Tales of Ordinary Madness",
+    "author": "Charles Bukowski",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 238
+  },
+  {
+    "isbn": "gr-10534",
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "rating": 3,
+    "dateRead": "2022",
+    "pages": 170
+  },
+  {
+    "isbn": "9781492045694",
+    "title": "The Art of Leadership: Small Things, Done Well",
+    "author": "Michael Lopp",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 198
+  },
+  {
+    "isbn": "9781250195821",
+    "title": "If This Book Exists, You're in the Wrong Universe (John Dies at the End, #4)",
+    "author": "Jason Pargin",
+    "rating": 5,
+    "dateRead": "2022",
+    "pages": 432
+  },
+  {
+    "isbn": "9780394524887",
+    "title": "Robert Capa: A Biography",
+    "author": "Richard Whelan",
+    "rating": 5,
+    "dateRead": "2022",
+    "pages": 341
+  },
+  {
+    "isbn": "9781838937607",
+    "title": "Hold Up the Sky",
+    "author": "Liu Cixin",
+    "rating": 5,
+    "dateRead": "2022",
+    "pages": 334
+  },
+  {
+    "isbn": "gr-34453830",
+    "title": "Birds, Beasts and Relatives: The Corfu Trilogy 2",
+    "author": "Gerald Durrell",
+    "rating": 5,
+    "dateRead": "2022",
+    "pages": 243
+  },
+  {
+    "isbn": "9732502649",
+    "title": "Colecționarii de pioneze",
+    "author": "Anton Ingolič",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 76
+  },
+  {
+    "isbn": "gr-38502",
+    "title": "Notes of a Dirty Old Man",
+    "author": "Charles Bukowski",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 204
+  },
+  {
+    "isbn": "9780140449266",
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "rating": 5,
+    "dateRead": "2022",
+    "pages": 1276
+  },
+  {
+    "isbn": "gr-9266856",
+    "title": "The Diary of a Young Girl",
+    "author": "Anne Frank",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 351
+  },
+  {
+    "isbn": "9780812993011",
+    "title": "Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration",
+    "author": "Ed Catmull",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 368
+  },
+  {
+    "isbn": "9780241951460",
+    "title": "My Family and Other Animals (Corfu Trilogy, #1)",
+    "author": "Gerald Durrell",
+    "rating": 5,
+    "dateRead": "2022",
+    "pages": 308
+  },
+  {
+    "isbn": "9780099530251",
+    "title": "On the Beach",
+    "author": "Nevil Shute",
+    "rating": 5,
+    "dateRead": "2022",
+    "pages": 312
+  },
+  {
+    "isbn": "9781501143106",
+    "title": "Misery",
+    "author": "Stephen  King",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 368
+  },
+  {
+    "isbn": "9781509845385",
+    "title": "Radical Candor",
+    "author": "Kim Malone Scott",
+    "rating": 5,
+    "dateRead": "2022",
+    "pages": 272
+  },
+  {
+    "isbn": "9781789543162",
+    "title": "Children of the Night: The Strange and Epic Story of Modern Romania",
+    "author": "Paul   Kenyon",
+    "rating": 5,
+    "dateRead": "2022",
+    "pages": 496
+  },
+  {
+    "isbn": "gr-28921",
+    "title": "The Remains of the Day",
+    "author": "Kazuo Ishiguro",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 258
+  },
+  {
+    "isbn": "9789731483986",
+    "title": "Casa Ileana, o poveste fără sfârșit",
+    "author": "Vasile Aioanei",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 161
+  },
+  {
+    "isbn": "9780062041265",
+    "title": "The Sisters Brothers",
+    "author": "Patrick deWitt",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 328
+  },
+  {
+    "isbn": "9780099532927",
+    "title": "The Silence of the Lambs (Hannibal Lecter, #2)",
+    "author": "Thomas  Harris",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 421
+  },
+  {
+    "isbn": "9781590171998",
+    "title": "Stoner",
+    "author": "John  Williams",
+    "rating": 5,
+    "dateRead": "2022",
+    "pages": 292
+  },
+  {
+    "isbn": "gr-6111723",
+    "title": "Red Dragon (Hannibal Lecter, #1)",
+    "author": "Thomas  Harris",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 432
+  },
+  {
+    "isbn": "gr-46026742",
+    "title": "2001: A Space Odyssey (Space Odyssey, #1)",
+    "author": "Arthur C. Clarke",
+    "rating": 5,
+    "dateRead": "2022",
+    "pages": 258
+  },
+  {
+    "isbn": "9786069098073",
+    "title": "Cel mai iubit dintre pământeni vol. 3",
+    "author": "Marin Preda",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 272
+  },
+  {
+    "isbn": "9781491941195",
+    "title": "Concurrency in Go: Tools and Techniques for Developers",
+    "author": "Katherine Cox-Buday",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 236
+  },
+  {
+    "isbn": "9786069098066",
+    "title": "Cel mai iubit dintre pământeni vol. 2",
+    "author": "Marin Preda",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 352
+  },
+  {
+    "isbn": "9780374602604",
+    "title": "Beautiful World, Where Are You",
+    "author": "Sally Rooney",
+    "rating": 2,
+    "dateRead": "2022",
+    "pages": 356
+  },
+  {
+    "isbn": "9780316273800",
+    "title": "The Age of AI and Our Human Future",
+    "author": "Henry Kissinger",
+    "rating": 3,
+    "dateRead": "2022",
+    "pages": 272
+  },
+  {
+    "isbn": "9786069098059",
+    "title": "Cel mai iubit dintre pământeni vol. 1",
+    "author": "Marin Preda",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 432
+  },
+  {
+    "isbn": "gr-37976541",
+    "title": "Bad Blood: Secrets and Lies in a Silicon Valley Startup",
+    "author": "John Carreyrou",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 339
+  },
+  {
+    "isbn": "9781848663206",
+    "title": "The Missing One",
+    "author": "Lucy Atkins",
+    "rating": 3,
+    "dateRead": "2022",
+    "pages": 569
+  },
+  {
+    "isbn": "9780099513780",
+    "title": "Something Fresh (Blandings Castle, #1)",
+    "author": "P.G. Wodehouse",
+    "rating": 4,
+    "dateRead": "2022",
+    "pages": 260
+  },
+  {
+    "isbn": "9781903517871",
+    "title": "Torture Garden (Decadence from Dedalus)",
+    "author": "Octave Mirbeau",
+    "rating": 3,
+    "dateRead": "2021",
+    "pages": 206
+  },
+  {
+    "isbn": "9781524763183",
+    "title": "A Promised Land",
+    "author": "Barack Obama",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 768
+  },
+  {
+    "isbn": "9780241335208",
+    "title": "Human Compatible: AI and the Problem of Control",
+    "author": "Stuart Russell",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 336
+  },
+  {
+    "isbn": "gr-513275",
+    "title": "Jakob von Gunten",
+    "author": "Robert Walser",
+    "rating": 3,
+    "dateRead": "2021",
+    "pages": 176
+  },
+  {
+    "isbn": "9780385515993",
+    "title": "The Palace of Illusions",
+    "author": "Chitra Banerjee Divakaruni",
+    "rating": 5,
+    "dateRead": "2021",
+    "pages": 360
+  },
+  {
+    "isbn": "9780091906818",
+    "title": "How To Win Friends & Influence People",
+    "author": "Dale Carnegie",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 268
+  },
+  {
+    "isbn": "9781529014495",
+    "title": "Exhalation",
+    "author": "Ted Chiang",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 350
+  },
+  {
+    "isbn": "9780241404836",
+    "title": "Artificial Intelligence: A Guide for Thinking Humans (Pelican Books)",
+    "author": "Melanie  Mitchell",
+    "rating": 5,
+    "dateRead": "2021",
+    "pages": 419
+  },
+  {
+    "isbn": "9780593318171",
+    "title": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 303
+  },
+  {
+    "isbn": "9781617295683",
+    "title": "GraphQL in Action",
+    "author": "Samer Buna",
+    "rating": 3,
+    "dateRead": "2021",
+    "pages": 384
+  },
+  {
+    "isbn": "9780143121428",
+    "title": "The Spy Who Came In from the Cold",
+    "author": "John le Carré",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 258
+  },
+  {
+    "isbn": "9781453239735",
+    "title": "Requiem for a Dream",
+    "author": "Hubert Selby Jr.",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 292
+  },
+  {
+    "isbn": "gr-46000520",
+    "title": "The Thursday Murder Club (Thursday Murder Club, #1)",
+    "author": "Richard Osman",
+    "rating": 3,
+    "dateRead": "2021",
+    "pages": 382
+  },
+  {
+    "isbn": "9780593135204",
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "rating": 5,
+    "dateRead": "2021",
+    "pages": 476
+  },
+  {
+    "isbn": "9781484221570",
+    "title": "Managing Humans: Biting and Humorous Tales of a Software Engineering Manager",
+    "author": "Michael Lopp",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 344
+  },
+  {
+    "isbn": "9780099513971",
+    "title": "Aunts Aren't Gentlemen (Jeeves, #15)",
+    "author": "P.G. Wodehouse",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 184
+  },
+  {
+    "isbn": "gr-38667",
+    "title": "Pedro Páramo",
+    "author": "Juan Rulfo",
+    "rating": 3,
+    "dateRead": "2021",
+    "pages": 136
+  },
+  {
+    "isbn": "gr-2052",
+    "title": "The Big Sleep (Philip Marlowe, #1)",
+    "author": "Raymond Chandler",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 231
+  },
+  {
+    "isbn": "gr-34066798",
+    "title": "A Gentleman in Moscow",
+    "author": "Amor Towles",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 495
+  },
+  {
+    "isbn": "9781631492297",
+    "title": "The Twenty Days of Turin",
+    "author": "Giorgio De Maria",
+    "rating": 5,
+    "dateRead": "2021",
+    "pages": 224
+  },
+  {
+    "isbn": "9780385353304",
+    "title": "Station Eleven",
+    "author": "Emily St. John Mandel",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 333
+  },
+  {
+    "isbn": "9780099513964",
+    "title": "Much Obliged, Jeeves (Jeeves, #14)",
+    "author": "P.G. Wodehouse",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 203
+  },
+  {
+    "isbn": "9781101972120",
+    "title": "Stories of Your Life and Others",
+    "author": "Ted Chiang",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 281
+  },
+  {
+    "isbn": "gr-6564051",
+    "title": "Kafka on the Shore",
+    "author": "Haruki Murakami",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 505
+  },
+  {
+    "isbn": "9781943150991",
+    "title": "Voices from Chernobyl: The Oral History of a Nuclear Disaster",
+    "author": "Svetlana Alexievich",
+    "rating": 5,
+    "dateRead": "2021",
+    "pages": 240
+  },
+  {
+    "isbn": "9780008279554",
+    "title": "I, Robot (Robot, #0.1)",
+    "author": "Isaac Asimov",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 244
+  },
+  {
+    "isbn": "gr-92057",
+    "title": "The Autobiography of Malcolm X",
+    "author": "Malcolm X",
+    "rating": 5,
+    "dateRead": "2021",
+    "pages": 466
+  },
+  {
+    "isbn": "9781250040190",
+    "title": "Futuristic Violence and Fancy Suits (Zoey Ashe, #1)",
+    "author": "David  Wong",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 384
+  },
+  {
+    "isbn": "9780380003211",
+    "title": "Alive: The Story of the Andes Survivors",
+    "author": "Piers Paul Read",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 318
+  },
+  {
+    "isbn": "9781841591056",
+    "title": "Stiff Upper Lip, Jeeves (Jeeves, #13)",
+    "author": "P.G. Wodehouse",
+    "rating": 5,
+    "dateRead": "2021",
+    "pages": 211
+  },
+  {
+    "isbn": "gr-51879720",
+    "title": "The Midnight Library (The Midnight World, #1)",
+    "author": "Matt Haig",
+    "rating": 3,
+    "dateRead": "2021",
+    "pages": 288
+  },
+  {
+    "isbn": "9781451627282",
+    "title": "11/22/63",
+    "author": "Stephen  King",
+    "rating": 5,
+    "dateRead": "2021",
+    "pages": 849
+  },
+  {
+    "isbn": "9781783522958",
+    "title": "The Good Immigrant",
+    "author": "Nikesh Shukla",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 272
+  },
+  {
+    "isbn": "9780062407801",
+    "title": "Never Split the Difference: Negotiating As If Your Life Depended On It",
+    "author": "Chris Voss",
+    "rating": 5,
+    "dateRead": "2021",
+    "pages": 274
+  },
+  {
+    "isbn": "9780735219564",
+    "title": "The Making of a Manager: What to Do When Everyone Looks to You",
+    "author": "Julie Zhuo",
+    "rating": 4,
+    "dateRead": "2021",
+    "pages": 336
+  },
+  {
+    "isbn": "9780385333481",
+    "title": "Cat's Cradle",
+    "author": "Kurt Vonnegut Jr.",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 287
+  },
+  {
+    "isbn": "9780141183442",
+    "title": "The Castle",
+    "author": "Franz Kafka",
+    "rating": 3,
+    "dateRead": "2020",
+    "pages": 280
+  },
+  {
+    "isbn": "9781481442541",
+    "title": "The Paper Menagerie and Other Stories",
+    "author": "Ken Liu",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 450
+  },
+  {
+    "isbn": "9781585673254",
+    "title": "Jeeves in the Offing (Jeeves, #12)",
+    "author": "P.G. Wodehouse",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 200
+  },
+  {
+    "isbn": "9781542097482",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 277
+  },
+  {
+    "isbn": "9781585672295",
+    "title": "Jeeves and the Feudal Spirit (Jeeves, #11)",
+    "author": "P.G. Wodehouse",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 231
+  },
+  {
+    "isbn": "9780340837948",
+    "title": "The Moon Is a Harsh Mistress",
+    "author": "Robert A. Heinlein",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 288
+  },
+  {
+    "isbn": "9781585675241",
+    "title": "Ring for Jeeves (Jeeves, #10)",
+    "author": "P.G. Wodehouse",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 240
+  },
+  {
+    "isbn": "9788491050759",
+    "title": "Don Quijote de la Mancha",
+    "author": "Miguel de Cervantes Saavedra",
+    "rating": 5,
+    "dateRead": "2020",
+    "pages": 1216
+  },
+  {
+    "isbn": "9781119404507",
+    "title": "The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns (Little Books. Big Profits)",
+    "author": "John C. Bogle",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 270
+  },
+  {
+    "isbn": "9780999773062",
+    "title": "How to code in Go",
+    "author": "Mark Bates",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 627
+  },
+  {
+    "isbn": "9780552138420",
+    "title": "The Brentford Triangle",
+    "author": "Robert Rankin",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 237
+  },
+  {
+    "isbn": "9781564782144",
+    "title": "The Third Policeman",
+    "author": "Flann O'Brien",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 200
+  },
+  {
+    "isbn": "9781585672318",
+    "title": "The Mating Season (Jeeves, #9)",
+    "author": "P.G. Wodehouse",
+    "rating": 5,
+    "dateRead": "2020",
+    "pages": 272
+  },
+  {
+    "isbn": "9781841591155",
+    "title": "Joy in the Morning (Jeeves, #8)",
+    "author": "P.G. Wodehouse",
+    "rating": 5,
+    "dateRead": "2020",
+    "pages": 296
+  },
+  {
+    "isbn": "9780552138413",
+    "title": "The Antipope",
+    "author": "Robert Rankin",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 283
+  },
+  {
+    "isbn": "9780285638532",
+    "title": "The Book: On the Taboo Against Knowing Who You Are",
+    "author": "Alan W. Watts",
+    "rating": 3,
+    "dateRead": "2020",
+    "pages": 176
+  },
+  {
+    "isbn": "9781451662436",
+    "title": "Total Recall: My Unbelievably True Life Story",
+    "author": "Arnold Schwarzenegger",
+    "rating": 5,
+    "dateRead": "2020",
+    "pages": 656
+  },
+  {
+    "isbn": "9781841591001",
+    "title": "The Code of the Woosters (Jeeves, #7)",
+    "author": "P.G. Wodehouse",
+    "rating": 5,
+    "dateRead": "2020",
+    "pages": 286
+  },
+  {
+    "isbn": "9780141049236",
+    "title": "The Plague [Oct 26, 2010] Camus, Albert",
+    "author": "Albert Camus",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 297
+  },
+  {
+    "isbn": "gr-17859680",
+    "title": "Books of Blood: Volume 4 (Books of Blood #4)",
+    "author": "Clive Barker",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 193
+  },
+  {
+    "isbn": "9781524759780",
+    "title": "Recursion",
+    "author": "Blake Crouch",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 329
+  },
+  {
+    "isbn": "9781585670581",
+    "title": "Right Ho, Jeeves (Jeeves, #6)",
+    "author": "P.G. Wodehouse",
+    "rating": 5,
+    "dateRead": "2020",
+    "pages": 290
+  },
+  {
+    "isbn": "9781585674343",
+    "title": "Thank You, Jeeves (Jeeves, #5)",
+    "author": "P.G. Wodehouse",
+    "rating": 5,
+    "dateRead": "2020",
+    "pages": 263
+  },
+  {
+    "isbn": "9781585677467",
+    "title": "Very Good, Jeeves! (Jeeves, #4)",
+    "author": "P.G. Wodehouse",
+    "rating": 5,
+    "dateRead": "2020",
+    "pages": 304
+  },
+  {
+    "isbn": "gr-36544276",
+    "title": "Carry On, Jeeves (Jeeves, #3)",
+    "author": "P.G. Wodehouse",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 288
+  },
+  {
+    "isbn": "9780312577223",
+    "title": "The Nightingale",
+    "author": "Kristin Hannah",
+    "rating": 5,
+    "dateRead": "2020",
+    "pages": 564
+  },
+  {
+    "isbn": "gr-32332537",
+    "title": "The Wandering Earth",
+    "author": "Liu Cixin",
+    "rating": 5,
+    "dateRead": "2020",
+    "pages": 484
+  },
+  {
+    "isbn": "gr-17859679",
+    "title": "Books of Blood: Volume 3 (Books of Blood #3)",
+    "author": "Clive Barker",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 248
+  },
+  {
+    "isbn": "9781787391963",
+    "title": "How to Go Plastic Free: Eco Tips for Busy People (How To Go... Series)",
+    "author": "Caroline Jones",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 128
+  },
+  {
+    "isbn": "9789733019367",
+    "title": "Bună dimineaţa, băieţi!",
+    "author": "Grigore Băjenaru",
+    "rating": 4,
+    "dateRead": "2020",
+    "pages": 172
+  },
+  {
+    "isbn": "9780060584757",
+    "title": "Mystic River",
+    "author": "Dennis Lehane",
+    "rating": 5,
+    "dateRead": "2019",
+    "pages": 416
+  },
+  {
+    "isbn": "9780679723226",
+    "title": "Double Indemnity (Vintage Crime/Black Lizard)",
+    "author": "James M. Cain",
+    "rating": 5,
+    "dateRead": "2019",
+    "pages": 115
+  },
+  {
+    "isbn": "9780393339802",
+    "title": "The Inimitable Jeeves (Jeeves, #2)",
+    "author": "P.G. Wodehouse",
+    "rating": 4,
+    "dateRead": "2019",
+    "pages": 225
+  },
+  {
+    "isbn": "9781585678754",
+    "title": "My Man Jeeves (Jeeves, #1)",
+    "author": "P.G. Wodehouse",
+    "rating": 4,
+    "dateRead": "2019",
+    "pages": 256
+  },
+  {
+    "isbn": "9780876852637",
+    "title": "Factotum",
+    "author": "Charles Bukowski",
+    "rating": 4,
+    "dateRead": "2019",
+    "pages": 205
+  },
+  {
+    "isbn": "9780091955106",
+    "title": "The Life-Changing Magic of Tidying",
+    "author": "Marie Kondō",
+    "rating": 4,
+    "dateRead": "2019",
+    "pages": 248
+  },
+  {
+    "isbn": "9780380731862",
+    "title": "Shutter Island",
+    "author": "Dennis Lehane",
+    "rating": 5,
+    "dateRead": "2019",
+    "pages": 369
+  },
+  {
+    "isbn": "9780385544238",
+    "title": "My Sister, the Serial Killer",
+    "author": "Oyinkan Braithwaite",
+    "rating": 4,
+    "dateRead": "2019",
+    "pages": 226
+  },
+  {
+    "isbn": "9781101904220",
+    "title": "Dark Matter",
+    "author": "Blake Crouch",
+    "rating": 5,
+    "dateRead": "2019",
+    "pages": 342
+  },
+  {
+    "isbn": "9780451194008",
+    "title": "Rosemary’s Baby (Rosemary's Baby, #1)",
+    "author": "Ira Levin",
+    "rating": 4,
+    "dateRead": "2019",
+    "pages": 308
+  },
+  {
+    "isbn": "9780316143479",
+    "title": "When You Are Engulfed in Flames",
+    "author": "David Sedaris",
+    "rating": 3,
+    "dateRead": "2019",
+    "pages": 323
+  },
+  {
+    "isbn": "9781904808169",
+    "title": "Alice's Adventures in Wonderland (Alice's Adventures in Wonderland, #1)",
+    "author": "Lewis Carroll",
+    "rating": 4,
+    "dateRead": "2019",
+    "pages": 132
+  },
+  {
+    "isbn": "gr-332613",
+    "title": "One Flew Over the Cuckoo’s Nest",
+    "author": "Ken Kesey",
+    "rating": 4,
+    "dateRead": "2019",
+    "pages": 325
+  },
+  {
+    "isbn": "gr-6746212",
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "rating": 4,
+    "dateRead": "2019",
+    "pages": 307
+  },
+  {
+    "isbn": "9780765377104",
+    "title": "Death's End (Remembrance of Earth’s Past, #3)",
+    "author": "Liu Cixin",
+    "rating": 5,
+    "dateRead": "2019",
+    "pages": 604
+  },
+  {
+    "isbn": "gr-23168817",
+    "title": "The Dark Forest (Remembrance of Earth’s Past, #2)",
+    "author": "Liu Cixin",
+    "rating": 5,
+    "dateRead": "2019",
+    "pages": 512
+  },
+  {
+    "isbn": "gr-20518872",
+    "title": "The Three-Body Problem (Remembrance of Earth’s Past, #1)",
+    "author": "Liu Cixin",
+    "rating": 4,
+    "dateRead": "2019",
+    "pages": 472
+  },
+  {
+    "isbn": "gr-968",
+    "title": "The Da Vinci Code (Robert Langdon, #2)",
+    "author": "Dan    Brown",
+    "rating": 4,
+    "dateRead": "2019",
+    "pages": 489
+  },
+  {
+    "isbn": "1848943970",
+    "title": "City of Thieves",
+    "author": "David Benioff",
+    "rating": 5,
+    "dateRead": "2019",
+    "pages": 284
+  },
+  {
+    "isbn": "gr-12840503",
+    "title": "The Exorcist",
+    "author": "William Peter Blatty",
+    "rating": 5,
+    "dateRead": "2019",
+    "pages": 378
+  },
+  {
+    "isbn": "gr-6629070",
+    "title": "The Godfather (The Godfather, #1)",
+    "author": "Mario Puzo",
+    "rating": 5,
+    "dateRead": "2019",
+    "pages": 595
+  },
+  {
+    "isbn": "9781474601610",
+    "title": "Sharp Objects",
+    "author": "Gillian Flynn",
+    "rating": 3,
+    "dateRead": "2019",
+    "pages": 323
+  },
+  {
+    "isbn": "gr-9889",
+    "title": "Breakfast at Tiffany's and Three Stories",
+    "author": "Truman Capote",
+    "rating": 4,
+    "dateRead": "2019",
+    "pages": 157
+  },
+  {
+    "isbn": "9781781162644",
+    "title": "Joyland",
+    "author": "Stephen  King",
+    "rating": 5,
+    "dateRead": "2019",
+    "pages": 285
+  },
+  {
+    "isbn": "9780061779787",
+    "title": "Secondhand Souls (Grim Reaper, #2)",
+    "author": "Christopher Moore",
+    "rating": 5,
+    "dateRead": "2019",
+    "pages": 335
+  },
+  {
+    "isbn": "gr-11381895",
+    "title": "It",
+    "author": "Stephen  King",
+    "rating": 4,
+    "dateRead": "2018",
+    "pages": 1376
+  },
+  {
+    "isbn": "9784088734477",
+    "title": "DRAGON BALL 4 (DRAGON BALL 完全版 [kanzenban], #4)",
+    "author": "Akira Toriyama",
+    "rating": 4,
+    "dateRead": "2018",
+    "pages": 236
+  },
+  {
+    "isbn": "9784088734460",
+    "title": "DRAGON BALL 3 (DRAGON BALL 完全版 [kanzenban], #3)",
+    "author": "Akira Toriyama",
+    "rating": 5,
+    "dateRead": "2018",
+    "pages": 240
+  },
+  {
+    "isbn": "9784088734453",
+    "title": "DRAGON BALL 2 (DRAGON BALL 完全版 [kanzenban], #2)",
+    "author": "Akira Toriyama",
+    "rating": 5,
+    "dateRead": "2018",
+    "pages": 236
+  },
+  {
+    "isbn": "9784088734446",
+    "title": "DRAGON BALL 1 (DRAGON BALL 完全版 [kanzenban], #1)",
+    "author": "Akira Toriyama",
+    "rating": 5,
+    "dateRead": "2018",
+    "pages": 228
+  },
+  {
+    "isbn": "9780393970128",
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "rating": 4,
+    "dateRead": "2018",
+    "pages": 488
+  },
+  {
+    "isbn": "gr-4881142",
+    "title": "Cişmigiu et Comp.",
+    "author": "Grigore Băjenaru",
+    "rating": 5,
+    "dateRead": "2018",
+    "pages": 219
+  },
+  {
+    "isbn": "gr-32853566",
+    "title": "A Brief History of Time: From the Big Bang to Black Holes",
+    "author": "Stephen W. Hawking",
+    "rating": 4,
+    "dateRead": "2018",
+    "pages": 255
+  },
+  {
+    "isbn": "9781857988826",
+    "title": "The Dispossessed",
+    "author": "Ursula K. Le Guin",
+    "rating": 4,
+    "dateRead": "2018",
+    "pages": 319
+  },
+  {
+    "isbn": "9788497592208",
+    "title": "Cien años de soledad",
+    "author": "Gabriel García Márquez",
+    "rating": 4,
+    "dateRead": "2018",
+    "pages": 495
+  },
+  {
+    "isbn": "9780671685638",
+    "title": "Ghost Story",
+    "author": "Peter Straub",
+    "rating": 3,
+    "dateRead": "2018",
+    "pages": 567
+  },
+  {
+    "isbn": "9780316098106",
+    "title": "Aurora",
+    "author": "Kim Stanley Robinson",
+    "rating": 4,
+    "dateRead": "2018",
+    "pages": 466
+  },
+  {
+    "isbn": "9780811200127",
+    "title": "Labyrinths: Selected Stories & Other Writings",
+    "author": "Jorge Luis Borges",
+    "rating": 2,
+    "dateRead": "2018",
+    "pages": 260
+  },
+  {
+    "isbn": "gr-17665021",
+    "title": "The Man in the High Castle",
+    "author": "Philip K. Dick",
+    "rating": 3,
+    "dateRead": "2018",
+    "pages": 249
+  },
+  {
+    "isbn": "9780671785284",
+    "title": "Papillon",
+    "author": "Henri Charrière",
+    "rating": 5,
+    "dateRead": "2018",
+    "pages": 458
+  },
+  {
+    "isbn": "gr-18882869",
+    "title": "All Quiet on the Western Front",
+    "author": "Erich Maria Remarque",
+    "rating": 5,
+    "dateRead": "2018",
+    "pages": 307
+  },
+  {
+    "isbn": "gr-37753457",
+    "title": "Acceptance (Southern Reach, #3)",
+    "author": "Jeff Vandermeer",
+    "rating": 3,
+    "dateRead": "2018",
+    "pages": 341
+  },
+  {
+    "isbn": "gr-37753446",
+    "title": "Authority (Southern Reach, #2)",
+    "author": "Jeff Vandermeer",
+    "rating": 3,
+    "dateRead": "2018",
+    "pages": 341
+  },
+  {
+    "isbn": "gr-36965054",
+    "title": "Annihilation (Southern Reach, #1)",
+    "author": "Jeff Vandermeer",
+    "rating": 5,
+    "dateRead": "2018",
+    "pages": 208
+  },
+  {
+    "isbn": "gr-8131772",
+    "title": "No Country for Old Men",
+    "author": "Cormac McCarthy",
+    "rating": 4,
+    "dateRead": "2018",
+    "pages": 320
+  },
+  {
+    "isbn": "gr-23999630",
+    "title": "A Canticle for Leibowitz (St. Leibowitz, #1)",
+    "author": "Walter M. Miller Jr.",
+    "rating": 5,
+    "dateRead": "2018",
+    "pages": 354
+  },
+  {
+    "isbn": "9781785651663",
+    "title": "What the Hell Did I Just Read (John Dies at the End Book 3)",
+    "author": "David  Wong",
+    "rating": 5,
+    "dateRead": "2018",
+    "pages": 384
+  },
+  {
+    "isbn": "gr-9373152",
+    "title": "BioShock: Rapture",
+    "author": "John Shirley",
+    "rating": 5,
+    "dateRead": "2018",
+    "pages": 444
+  },
+  {
+    "isbn": "9781250017901",
+    "title": "This Book Is Full of Spiders: Seriously, Dude, Don’t Touch It (John Dies at the End, #2)",
+    "author": "David  Wong",
+    "rating": 5,
+    "dateRead": "2018",
+    "pages": 406
+  },
+  {
+    "isbn": "gr-8242493",
+    "title": "John Dies at the End (John Dies at the End #1)",
+    "author": "David  Wong",
+    "rating": 5,
+    "dateRead": "2018",
+    "pages": 479
+  },
+  {
+    "isbn": "9780812550702",
+    "title": "Ender’s Game (Ender's Saga, #1)",
+    "author": "Orson Scott Card",
+    "rating": 4,
+    "dateRead": "2018",
+    "pages": 324
+  },
+  {
+    "isbn": "9780140435313",
+    "title": "Flatland: A Romance of Many Dimensions",
+    "author": "Edwin A. Abbott",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 118
+  },
+  {
+    "isbn": "9780544484009",
+    "title": "Everything Is Illuminated",
+    "author": "Jonathan Safran Foer",
+    "rating": 3,
+    "dateRead": "2017",
+    "pages": 288
+  },
+  {
+    "isbn": "gr-32604096",
+    "title": "The Majesty of Vue.js 2",
+    "author": "Alex Kyriakidis",
+    "rating": 3,
+    "dateRead": "2017",
+    "pages": 297
+  },
+  {
+    "isbn": "9780061177583",
+    "title": "Ham on Rye",
+    "author": "Charles Bukowski",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 288
+  },
+  {
+    "isbn": "9781857988529",
+    "title": "More Than Human",
+    "author": "Theodore Sturgeon",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 233
+  },
+  {
+    "isbn": "9780739326220",
+    "title": "Memoirs of a Geisha",
+    "author": "Arthur Golden",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 434
+  },
+  {
+    "isbn": "gr-7082",
+    "title": "Do Androids Dream of Electric Sheep?",
+    "author": "Philip K. Dick",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 244
+  },
+  {
+    "isbn": "9780143039976",
+    "title": "We Have Always Lived in the Castle",
+    "author": "Shirley Jackson",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 152
+  },
+  {
+    "isbn": "9780816491216",
+    "title": "Hard to Be a God",
+    "author": "Arkady Strugatsky",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 219
+  },
+  {
+    "isbn": "9780752864334",
+    "title": "The Green Mile",
+    "author": "Stephen  King",
+    "rating": 5,
+    "dateRead": "2017",
+    "pages": 450
+  },
+  {
+    "isbn": "9780575076815",
+    "title": "A Scanner Darkly",
+    "author": "Philip K. Dick",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 217
+  },
+  {
+    "isbn": "9780330544580",
+    "title": "Blood Meridian",
+    "author": "Cormac McCarthy",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 355
+  },
+  {
+    "isbn": "9780156453806",
+    "title": "Invisible Cities",
+    "author": "Italo Calvino",
+    "rating": 1,
+    "dateRead": "2017",
+    "pages": 165
+  },
+  {
+    "isbn": "9780099535584",
+    "title": "Skagboys (Mark Renton, #1)",
+    "author": "Irvine Welsh",
+    "rating": 5,
+    "dateRead": "2017",
+    "pages": 548
+  },
+  {
+    "isbn": "gr-6321904",
+    "title": "Angels & Demons (Robert Langdon, #1)",
+    "author": "Dan    Brown",
+    "rating": 5,
+    "dateRead": "2017",
+    "pages": 736
+  },
+  {
+    "isbn": "9780876850862",
+    "title": "Post Office",
+    "author": "Charles Bukowski",
+    "rating": 5,
+    "dateRead": "2017",
+    "pages": 208
+  },
+  {
+    "isbn": "9780385490818",
+    "title": "The Handmaid’s Tale (The Handmaid's Tale, #1)",
+    "author": "Margaret Atwood",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 311
+  },
+  {
+    "isbn": "9786065888609",
+    "title": "Flash-uri din sens opus",
+    "author": "Marian Godină",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 192
+  },
+  {
+    "isbn": "9780802130204",
+    "title": "A Confederacy of Dunces",
+    "author": "John Kennedy Toole",
+    "rating": 3,
+    "dateRead": "2017",
+    "pages": 394
+  },
+  {
+    "isbn": "9780812974416",
+    "title": "At the Mountains of Madness",
+    "author": "H.P. Lovecraft",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 194
+  },
+  {
+    "isbn": "9780486431680",
+    "title": "Hunger",
+    "author": "Knut Hamsun",
+    "rating": 3,
+    "dateRead": "2017",
+    "pages": 134
+  },
+  {
+    "isbn": "9780393241686",
+    "title": "The Unseen World",
+    "author": "Liz    Moore",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 451
+  },
+  {
+    "isbn": "gr-374233",
+    "title": "If on a Winter's Night a Traveler",
+    "author": "Italo Calvino",
+    "rating": 5,
+    "dateRead": "2017",
+    "pages": 260
+  },
+  {
+    "isbn": "gr-6353134",
+    "title": "Amintiri din copilărie",
+    "author": "Ion Creangă",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 130
+  },
+  {
+    "isbn": "9780451196712",
+    "title": "The Long Walk",
+    "author": "Richard  Bachman",
+    "rating": 4,
+    "dateRead": "2017",
+    "pages": 370
+  },
+  {
+    "isbn": "gr-37781",
+    "title": "Things Fall Apart (The African Trilogy, #1)",
+    "author": "Chinua Achebe",
+    "rating": 5,
+    "dateRead": "2016",
+    "pages": 215
+  },
+  {
+    "isbn": "9780061122415",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "rating": 4,
+    "dateRead": "2016",
+    "pages": 197
+  },
+  {
+    "isbn": "gr-29634529",
+    "title": "TypeScript Deep Dive",
+    "author": "Basarat Ali Syed",
+    "rating": 3,
+    "dateRead": "2016",
+    "pages": 378
+  },
+  {
+    "isbn": "9780140042597",
+    "title": "On the Road",
+    "author": "Jack Kerouac",
+    "rating": 4,
+    "dateRead": "2016",
+    "pages": 307
+  },
+  {
+    "isbn": "gr-27844376",
+    "title": "Future Visions: Original Science Fiction Inspired by Microsoft",
+    "author": "Jennifer Henshaw",
+    "rating": 5,
+    "dateRead": "2016",
+    "pages": 224
+  },
+  {
+    "isbn": "9781408855652",
+    "title": "Harry Potter and the Philosopher's Stone (Harry Potter, #1)",
+    "author": "J.K. Rowling",
+    "rating": 4,
+    "dateRead": "2016",
+    "pages": 332
+  },
+  {
+    "isbn": "9780679734529",
+    "title": "Notes from Underground",
+    "author": "Fyodor Dostoevsky",
+    "rating": 3,
+    "dateRead": "2016",
+    "pages": 136
+  },
+  {
+    "isbn": "9781594633669",
+    "title": "The Girl on the Train",
+    "author": "Paula Hawkins",
+    "rating": 3,
+    "dateRead": "2016",
+    "pages": 336
+  },
+  {
+    "isbn": "9781846276002",
+    "title": "The Nakano Thrift Shop",
+    "author": "Hiromi Kawakami",
+    "rating": 4,
+    "dateRead": "2016",
+    "pages": 260
+  },
+  {
+    "isbn": "9784805312797",
+    "title": "Cool Japan Guide: Fun in the Land of Manga, Lucky Cats and Ramen (Cool Guides)",
+    "author": "Abby Denson",
+    "rating": 5,
+    "dateRead": "2016",
+    "pages": 128
+  },
+  {
+    "isbn": "9780140282580",
+    "title": "Steppenwolf",
+    "author": "Hermann Hesse",
+    "rating": 3,
+    "dateRead": "2016",
+    "pages": 256
+  },
+  {
+    "isbn": "9780805209990",
+    "title": "The Trial",
+    "author": "Franz Kafka",
+    "rating": 4,
+    "dateRead": "2016",
+    "pages": 276
+  },
+  {
+    "isbn": "9780684830490",
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "rating": 3,
+    "dateRead": "2016",
+    "pages": 96
+  },
+  {
+    "isbn": "9780224094153",
+    "title": "The Sense of an Ending",
+    "author": "Julian Barnes",
+    "rating": 5,
+    "dateRead": "2016",
+    "pages": 150
+  },
+  {
+    "isbn": "9789731243702",
+    "title": "Inimi cicatrizate",
+    "author": "Max Blecher",
+    "rating": 4,
+    "dateRead": "2016",
+    "pages": 208
+  },
+  {
+    "isbn": "gr-13053277",
+    "title": "The Gun Seller",
+    "author": "Hugh Laurie",
+    "rating": 4,
+    "dateRead": "2016",
+    "pages": 352
+  },
+  {
+    "isbn": "gr-18038911",
+    "title": "The Ocean at the End of the Lane",
+    "author": "Neil Gaiman",
+    "rating": 4,
+    "dateRead": "2016",
+    "pages": 258
+  },
+  {
+    "isbn": "9781450562799",
+    "title": "The Shadow over Innsmouth",
+    "author": "H.P. Lovecraft",
+    "rating": 5,
+    "dateRead": "2016",
+    "pages": 158
+  },
+  {
+    "isbn": "gr-25984055",
+    "title": "The Lathe of Heaven",
+    "author": "Ursula K. Le Guin",
+    "rating": 5,
+    "dateRead": "2016",
+    "pages": 124
+  },
+  {
+    "isbn": "gr-5692",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "rating": 5,
+    "dateRead": "2016",
+    "pages": 564
+  },
+  {
+    "isbn": "gr-22328",
+    "title": "Neuromancer (Sprawl #1)",
+    "author": "William Gibson",
+    "rating": 4,
+    "dateRead": "2016",
+    "pages": 271
+  },
+  {
+    "isbn": "gr-567678",
+    "title": "The Wasp Factory",
+    "author": "Iain Banks",
+    "rating": 3,
+    "dateRead": "2016",
+    "pages": 184
+  },
+  {
+    "isbn": "9781400034710",
+    "title": "Chronicle of a Death Foretold",
+    "author": "Gabriel García Márquez",
+    "rating": 4,
+    "dateRead": "2016",
+    "pages": 120
+  },
+  {
+    "isbn": "9780575070530",
+    "title": "Roadside Picnic",
+    "author": "Arkady Strugatsky",
+    "rating": 5,
+    "dateRead": "2016",
+    "pages": 145
+  },
+  {
+    "isbn": "9780307887436",
+    "title": "Ready Player One (Ready Player One, #1)",
+    "author": "Ernest Cline",
+    "rating": 5,
+    "dateRead": "2016",
+    "pages": 480
+  },
+  {
+    "isbn": "9780140449068",
+    "title": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "rating": 5,
+    "dateRead": "2015",
+    "pages": 252
+  },
+  {
+    "isbn": "9780385518338",
+    "title": "Dexter in the Dark (Dexter, #3)",
+    "author": "Jeff Lindsay",
+    "rating": 3,
+    "dateRead": "2015",
+    "pages": 307
+  },
+  {
+    "isbn": "9780451528520",
+    "title": "The Invisible Man",
+    "author": "H.G. Wells",
+    "rating": 4,
+    "dateRead": "2015",
+    "pages": 192
+  },
+  {
+    "isbn": "9780452281257",
+    "title": "Anthem",
+    "author": "Ayn Rand",
+    "rating": 5,
+    "dateRead": "2015",
+    "pages": 105
+  },
+  {
+    "isbn": "9780099437598",
+    "title": "In Watermelon Sugar",
+    "author": "Richard Brautigan",
+    "rating": 3,
+    "dateRead": "2015",
+    "pages": 144
+  },
+  {
+    "isbn": "9781625174918",
+    "title": "Force.com Platform Fundamentals: An Introduction to Custom Application Development in the Cloud",
+    "author": "Phil Choi",
+    "rating": 4,
+    "dateRead": "2015",
+    "pages": 414
+  },
+  {
+    "isbn": "9780679728740",
+    "title": "Child of God (Vintage International)",
+    "author": "Cormac McCarthy",
+    "rating": 4,
+    "dateRead": "2015",
+    "pages": 197
+  },
+  {
+    "isbn": "9780940322721",
+    "title": "Sleepless Nights",
+    "author": "Elizabeth Hardwick",
+    "rating": 3,
+    "dateRead": "2015",
+    "pages": 176
+  },
+  {
+    "isbn": "gr-63031",
+    "title": "By Night in Chile",
+    "author": "Roberto Bolaño",
+    "rating": 4,
+    "dateRead": "2015",
+    "pages": 118
+  },
+  {
+    "isbn": "9789736698415",
+    "title": "Moromeții I (Moromeții, #1)",
+    "author": "Marin Preda",
+    "rating": 5,
+    "dateRead": "2015",
+    "pages": 416
+  },
+  {
+    "isbn": "gr-8045416",
+    "title": "To Kill a Mockingbird (To Kill a Mockingbird, #1)",
+    "author": "Harper Lee",
+    "rating": 5,
+    "dateRead": "2015",
+    "pages": 309
+  },
+  {
+    "isbn": "9780140283334",
+    "title": "Lord of the Flies",
+    "author": "William Golding",
+    "rating": 3,
+    "dateRead": "2015",
+    "pages": 182
+  },
+  {
+    "isbn": "9780393318685",
+    "title": "Filth",
+    "author": "Irvine Welsh",
+    "rating": 4,
+    "dateRead": "2015",
+    "pages": 393
+  },
+  {
+    "isbn": "9781449369996",
+    "title": "Introducing Elixir: Getting Started in Functional Programming",
+    "author": "Simon St. Laurent",
+    "rating": 4,
+    "dateRead": "2015",
+    "pages": 210
+  },
+  {
+    "isbn": "9780307341563",
+    "title": "Dark Places",
+    "author": "Gillian Flynn",
+    "rating": 4,
+    "dateRead": "2015",
+    "pages": 424
+  },
+  {
+    "isbn": "gr-7613",
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "rating": 4,
+    "dateRead": "2015",
+    "pages": 129
+  },
+  {
+    "isbn": "9780743273565",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "rating": 4,
+    "dateRead": "2015",
+    "pages": 180
+  },
+  {
+    "isbn": "9780156030083",
+    "title": "Flowers for Algernon",
+    "author": "Daniel Keyes",
+    "rating": 5,
+    "dateRead": "2015",
+    "pages": 311
+  },
+  {
+    "isbn": "9780452011878",
+    "title": "Atlas Shrugged",
+    "author": "Ayn Rand",
+    "rating": 4,
+    "dateRead": "2015",
+    "pages": 1168
+  },
+  {
+    "isbn": "gr-11021913",
+    "title": "Bossypants",
+    "author": "Tina Fey",
+    "rating": 3,
+    "dateRead": "2015",
+    "pages": 290
+  },
+  {
+    "isbn": "9780140447576",
+    "title": "The Communist Manifesto",
+    "author": "Karl Marx",
+    "rating": 3,
+    "dateRead": "2015",
+    "pages": 288
+  },
+  {
+    "isbn": "9781400095926",
+    "title": "Dearly Devoted Dexter (Dexter, #2)",
+    "author": "Jeff Lindsay",
+    "rating": 5,
+    "dateRead": "2015",
+    "pages": 292
+  },
+  {
+    "isbn": "9780805092998",
+    "title": "The Sixth Extinction: An Unnatural History",
+    "author": "Elizabeth Kolbert",
+    "rating": 3,
+    "dateRead": "2015",
+    "pages": 336
+  },
+  {
+    "isbn": "gr-15992715",
+    "title": "An Introduction to Programming in Go",
+    "author": "Caleb Doxsey",
+    "rating": 5,
+    "dateRead": "2015",
+    "pages": 161
+  },
+  {
+    "isbn": "9780743247542",
+    "title": "The Glass Castle",
+    "author": "Jeannette Walls",
+    "rating": 5,
+    "dateRead": "2015",
+    "pages": 288
+  },
+  {
+    "isbn": "gr-18906790",
+    "title": "The Mature Optimization Handbook",
+    "author": "Carlos Bueno",
+    "rating": 4,
+    "dateRead": "2015",
+    "pages": 89
+  },
+  {
+    "isbn": "9781420925531",
+    "title": "A Study in Scarlet (Sherlock Holmes, #1)",
+    "author": "Arthur Conan Doyle",
+    "rating": 4,
+    "dateRead": "2014",
+    "pages": 123
+  },
+  {
+    "isbn": "9780375421877",
+    "title": "The Minority Report",
+    "author": "Philip K. Dick",
+    "rating": 4,
+    "dateRead": "2014",
+    "pages": 112
+  },
+  {
+    "isbn": "9780752861746",
+    "title": "The Postman Always Rings Twice",
+    "author": "James M. Cain",
+    "rating": 5,
+    "dateRead": "2014",
+    "pages": 116
+  },
+  {
+    "isbn": "gr-47667",
+    "title": "Seeing",
+    "author": "José Saramago",
+    "rating": 2,
+    "dateRead": "2014",
+    "pages": 307
+  },
+  {
+    "isbn": "9780297852230",
+    "title": "Revolution 1989: The Fall of the Soviet Empire",
+    "author": "Victor Sebestyen",
+    "rating": 5,
+    "dateRead": "2014",
+    "pages": 600
+  },
+  {
+    "isbn": "gr-8709721",
+    "title": "The King in Yellow",
+    "author": "Robert W. Chambers",
+    "rating": 3,
+    "dateRead": "2014",
+    "pages": 179
+  },
+  {
+    "isbn": "9780679745587",
+    "title": "In Cold Blood",
+    "author": "Truman Capote",
+    "rating": 4,
+    "dateRead": "2014",
+    "pages": 343
+  },
+  {
+    "isbn": "gr-12067",
+    "title": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
+    "author": "Terry Pratchett",
+    "rating": 3,
+    "dateRead": "2014",
+    "pages": 491
+  },
+  {
+    "isbn": "9780143038634",
+    "title": "Piercing",
+    "author": "Ryū Murakami",
+    "rating": 3,
+    "dateRead": "2014",
+    "pages": 184
+  },
+  {
+    "isbn": "9780857052889",
+    "title": "Irène (Camille Verhœven, #1)",
+    "author": "Pierre Lemaitre",
+    "rating": 4,
+    "dateRead": "2014",
+    "pages": 398
+  },
+  {
+    "isbn": "gr-17835762",
+    "title": "Books of Blood: Volume 2 (Books of Blood #2)",
+    "author": "Clive Barker",
+    "rating": 4,
+    "dateRead": "2014",
+    "pages": 187
+  },
+  {
+    "isbn": "gr-49552",
+    "title": "The Stranger",
+    "author": "Albert Camus",
+    "rating": 3,
+    "dateRead": "2014",
+    "pages": 123
+  },
+  {
+    "isbn": "gr-4981",
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut Jr.",
+    "rating": 3,
+    "dateRead": "2014",
+    "pages": 275
+  },
+  {
+    "isbn": "9780393338423",
+    "title": "Popular Hits of the Showa Era",
+    "author": "Ryū Murakami",
+    "rating": 3,
+    "dateRead": "2014",
+    "pages": 192
+  },
+  {
+    "isbn": "gr-4921",
+    "title": "Three Men in a Boat (Three Men, #1)",
+    "author": "Jerome K. Jerome",
+    "rating": 4,
+    "dateRead": "2014",
+    "pages": 185
+  },
+  {
+    "isbn": "9780312420338",
+    "title": "Crash",
+    "author": "J.G. Ballard",
+    "rating": 3,
+    "dateRead": "2014",
+    "pages": 224
+  },
+  {
+    "isbn": "9780312330873",
+    "title": "And Then There Were None",
+    "author": "Agatha Christie",
+    "rating": 5,
+    "dateRead": "2014",
+    "pages": 264
+  },
+  {
+    "isbn": "9780804139021",
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "rating": 5,
+    "dateRead": "2014",
+    "pages": 369
+  },
+  {
+    "isbn": "gr-112",
+    "title": "Children of Dune (Dune #3)",
+    "author": "Frank Herbert",
+    "rating": 3,
+    "dateRead": "2014",
+    "pages": 408
+  },
+  {
+    "isbn": "9780374530501",
+    "title": "A Sport and a Pastime",
+    "author": "James Salter",
+    "rating": 4,
+    "dateRead": "2014",
+    "pages": 185
+  },
+  {
+    "isbn": "9780831727529",
+    "title": "Gerald's Game",
+    "author": "Stephen  King",
+    "rating": 4,
+    "dateRead": "2014",
+    "pages": 332
+  },
+  {
+    "isbn": "9780931137075",
+    "title": "The Tao of Programming (English and Chinese Edition)",
+    "author": "Geoffrey James",
+    "rating": 5,
+    "dateRead": "2014",
+    "pages": 151
+  },
+  {
+    "isbn": "9780931137099",
+    "title": "The Zen of Programming",
+    "author": "Geoffrey James",
+    "rating": 5,
+    "dateRead": "2014",
+    "pages": 128
+  },
+  {
+    "isbn": "9781451696196",
+    "title": "The Perks of Being a Wallflower",
+    "author": "Stephen Chbosky",
+    "rating": 4,
+    "dateRead": "2014",
+    "pages": 213
+  },
+  {
+    "isbn": "9780380813810",
+    "title": "Lamb: The Gospel According to Biff, Christ’s Childhood Pal",
+    "author": "Christopher Moore",
+    "rating": 4,
+    "dateRead": "2014",
+    "pages": 444
+  },
+  {
+    "isbn": "9780061002823",
+    "title": "The Hellbound Heart (Hellraiser #1)",
+    "author": "Clive Barker",
+    "rating": 5,
+    "dateRead": "2013",
+    "pages": 164
+  },
+  {
+    "isbn": "9780140447811",
+    "title": "Venus in Furs",
+    "author": "Leopold von Sacher-Masoch",
+    "rating": 3,
+    "dateRead": "2013",
+    "pages": 160
+  },
+  {
+    "isbn": "9780307347978",
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "rating": 3,
+    "dateRead": "2013",
+    "pages": 158
+  },
+  {
+    "isbn": "9780679785897",
+    "title": "Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream",
+    "author": "Hunter S. Thompson",
+    "rating": 5,
+    "dateRead": "2013",
+    "pages": 204
+  },
+  {
+    "isbn": "9780441172696",
+    "title": "Dune Messiah (Dune #2)",
+    "author": "Frank Herbert",
+    "rating": 4,
+    "dateRead": "2013",
+    "pages": 331
+  },
+  {
+    "isbn": "9780843955439",
+    "title": "The Girl Next Door",
+    "author": "Jack Ketchum",
+    "rating": 5,
+    "dateRead": "2013",
+    "pages": 370
+  },
+  {
+    "isbn": "9780393312805",
+    "title": "The Acid House",
+    "author": "Irvine Welsh",
+    "rating": 3,
+    "dateRead": "2013",
+    "pages": 289
+  },
+  {
+    "isbn": "9780340839935",
+    "title": "Dune (Dune #1)",
+    "author": "Frank Herbert",
+    "rating": 5,
+    "dateRead": "2013",
+    "pages": 604
+  },
+  {
+    "isbn": "9780224080552",
+    "title": "Reheated Cabbage",
+    "author": "Irvine Welsh",
+    "rating": 3,
+    "dateRead": "2013",
+    "pages": 288
+  },
+  {
+    "isbn": "9780439023511",
+    "title": "Mockingjay (The Hunger Games, #3)",
+    "author": "Suzanne Collins",
+    "rating": 5,
+    "dateRead": "2013",
+    "pages": 390
+  },
+  {
+    "isbn": "9780439023498",
+    "title": "Catching Fire (The Hunger Games, #2)",
+    "author": "Suzanne Collins",
+    "rating": 5,
+    "dateRead": "2013",
+    "pages": 391
+  },
+  {
+    "isbn": "9780439023481",
+    "title": "The Hunger Games (The Hunger Games, #1)",
+    "author": "Suzanne Collins",
+    "rating": 4,
+    "dateRead": "2013",
+    "pages": 374
+  },
+  {
+    "isbn": "9789739132305",
+    "title": "Pădurea spânzuraţilor",
+    "author": "Liviu Rebreanu",
+    "rating": 5,
+    "dateRead": "2013",
+    "pages": 316
+  },
+  {
+    "isbn": "9780224081269",
+    "title": "If You Liked School, You'll Love Work",
+    "author": "Irvine Welsh",
+    "rating": 3,
+    "dateRead": "2013",
+    "pages": 320
+  },
+  {
+    "isbn": "9739569080",
+    "title": "Fridolin",
+    "author": "Franz Caspar",
+    "rating": 3,
+    "dateRead": "2013",
+    "pages": 130
+  },
+  {
+    "isbn": "gr-8442457",
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "rating": 5,
+    "dateRead": "2013",
+    "pages": 399
+  },
+  {
+    "isbn": "9780618346257",
+    "title": "The Fellowship of the Ring (The Lord of the Rings, #1)",
+    "author": "J.R.R. Tolkien",
+    "rating": 4,
+    "dateRead": "2013",
+    "pages": 398
+  },
+  {
+    "isbn": "gr-5907",
+    "title": "The Hobbit, or There and Back Again",
+    "author": "J.R.R. Tolkien",
+    "rating": 4,
+    "dateRead": "2013",
+    "pages": 366
+  },
+  {
+    "isbn": "9780060842352",
+    "title": "The Stupidest Angel: A Heartwarming Tale of Christmas Terror (Pine Cove, #3)",
+    "author": "Christopher Moore",
+    "rating": 3,
+    "dateRead": "2013",
+    "pages": 306
+  },
+  {
+    "isbn": "9780060889579",
+    "title": "SuperFreakonomics: Global Cooling, Patriotic Prostitutes And Why Suicide Bombers Should Buy Life Insurance",
+    "author": "Steven D. Levitt",
+    "rating": 3,
+    "dateRead": "2013",
+    "pages": 270
+  },
+  {
+    "isbn": "9780450040184",
+    "title": "The Shining (The Shining, #1)",
+    "author": "Stephen  King",
+    "rating": 4,
+    "dateRead": "2013",
+    "pages": 497
+  },
+  {
+    "isbn": "9780060590277",
+    "title": "A Dirty Job (Grim Reaper, #1)",
+    "author": "Christopher Moore",
+    "rating": 5,
+    "dateRead": "2013",
+    "pages": 387
+  },
+  {
+    "isbn": "9781573225519",
+    "title": "High Fidelity",
+    "author": "Nick Hornby",
+    "rating": 5,
+    "dateRead": "2013",
+    "pages": 323
+  },
+  {
+    "isbn": "9780802131782",
+    "title": "Tropic of Cancer (Tropic, #1)",
+    "author": "Henry Miller",
+    "rating": 3,
+    "dateRead": "2013",
+    "pages": 318
+  },
+  {
+    "isbn": "9781841955001",
+    "title": "Tokyo Doesn't Love Us Anymore",
+    "author": "Ray Loriga",
+    "rating": 4,
+    "dateRead": "2013",
+    "pages": 272
+  },
+  {
+    "isbn": "9780385341011",
+    "title": "The Black Path (Rebecka Martinsson, #3)",
+    "author": "Åsa Larsson",
+    "rating": 3,
+    "dateRead": "2012",
+    "pages": 384
+  },
+  {
+    "isbn": "gr-62373",
+    "title": "A Clockwork Orange",
+    "author": "Anthony Burgess",
+    "rating": 4,
+    "dateRead": "2012",
+    "pages": 149
+  },
+  {
+    "isbn": "9780749707231",
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "rating": 4,
+    "dateRead": "2012",
+    "pages": 91
+  },
+  {
+    "isbn": "9780671536220",
+    "title": "God on a Harley: A Spiritual Fable (An Inspiring Spiritual Tale)",
+    "author": "Joan   Brady",
+    "rating": 4,
+    "dateRead": "2012",
+    "pages": 176
+  },
+  {
+    "isbn": "9780307740991",
+    "title": "Never Let Me Go",
+    "author": "Kazuo Ishiguro",
+    "rating": 3,
+    "dateRead": "2012",
+    "pages": 304
+  },
+  {
+    "isbn": "9780141036144",
+    "title": "1984",
+    "author": "George Orwell",
+    "rating": 3,
+    "dateRead": "2012",
+    "pages": 334
+  },
+  {
+    "isbn": "9780684867625",
+    "title": "The Girl Who Loved Tom Gordon",
+    "author": "Stephen  King",
+    "rating": 3,
+    "dateRead": "2012",
+    "pages": 224
+  },
+  {
+    "isbn": "9781906780227",
+    "title": "Bad Karma",
+    "author": "David Safier",
+    "rating": 4,
+    "dateRead": "2012",
+    "pages": 219
+  },
+  {
+    "isbn": "gr-17231",
+    "title": "Darkly Dreaming Dexter (Dexter, #1)",
+    "author": "Jeff Lindsay",
+    "rating": 4,
+    "dateRead": "2012",
+    "pages": 288
+  },
+  {
+    "isbn": "9780307391339",
+    "title": "Cell (Spanish language)",
+    "author": "Stephen  King",
+    "rating": 3,
+    "dateRead": "2012",
+    "pages": 448
+  },
+  {
+    "isbn": "9780385340793",
+    "title": "The Blood Spilt (Rebecka Martinsson #2)",
+    "author": "Åsa Larsson",
+    "rating": 3,
+    "dateRead": "2012",
+    "pages": 368
+  },
+  {
+    "isbn": "9780684833392",
+    "title": "Catch-22",
+    "author": "Joseph Heller",
+    "rating": 4,
+    "dateRead": "2012",
+    "pages": 453
+  },
+  {
+    "isbn": "9780393327342",
+    "title": "Fight Club",
+    "author": "Chuck Palahniuk",
+    "rating": 5,
+    "dateRead": "2012",
+    "pages": 218
+  },
+  {
+    "isbn": "9781400032822",
+    "title": "Haunted",
+    "author": "Chuck Palahniuk",
+    "rating": 2,
+    "dateRead": "2012",
+    "pages": 419
+  },
+  {
+    "isbn": "9781439106211",
+    "title": "Bag of Bones",
+    "author": "Stephen  King",
+    "rating": 5,
+    "dateRead": "2012",
+    "pages": 560
+  },
+  {
+    "isbn": "gr-2526",
+    "title": "Blindness",
+    "author": "José Saramago",
+    "rating": 5,
+    "dateRead": "2012",
+    "pages": 326
+  },
+  {
+    "isbn": "9780679735779",
+    "title": "American Psycho",
+    "author": "Bret Easton Ellis",
+    "rating": 4,
+    "dateRead": "2012",
+    "pages": 399
+  },
+  {
+    "isbn": "gr-343",
+    "title": "Perfume: The Story of a Murderer",
+    "author": "Patrick Süskind",
+    "rating": 3,
+    "dateRead": "2012",
+    "pages": 263
+  },
+  {
+    "isbn": "gr-18133",
+    "title": "Lolita",
+    "author": "Vladimir Nabokov",
+    "rating": 5,
+    "dateRead": "2012",
+    "pages": 317
+  },
+  {
+    "isbn": "9781600964220",
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "rating": 3,
+    "dateRead": "2012",
+    "pages": 94
+  },
+  {
+    "isbn": "gr-11",
+    "title": "The Hitchhiker’s Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)",
+    "author": "Douglas Adams",
+    "rating": 4,
+    "dateRead": "2012",
+    "pages": 216
+  },
+  {
+    "isbn": "9780385340786",
+    "title": "Sun Storm (Rebecka Martinsson, #1)",
+    "author": "Åsa Larsson",
+    "rating": 3,
+    "dateRead": "2012",
+    "pages": 310
+  },
+  {
+    "isbn": "9780061234002",
+    "title": "Freakonomics: A Rogue Economist Explores the Hidden Side of Everything",
+    "author": "Steven D. Levitt",
+    "rating": 3,
+    "dateRead": "2012",
+    "pages": 268
+  },
+  {
+    "isbn": "9780099465898",
+    "title": "Trainspotting (Mark Renton, #2)",
+    "author": "Irvine Welsh",
+    "rating": 5,
+    "dateRead": "2012",
+    "pages": 431
+  },
+  {
+    "isbn": "9783453533011",
+    "title": "Metro 2034 (Metro, #2)",
+    "author": "Dmitry Glukhovsky",
+    "rating": 3,
+    "dateRead": "2012",
+    "pages": 526
+  },
+  {
+    "isbn": "9788448039806",
+    "title": "Metro 2033 (Metro, #1)",
+    "author": "Dmitry Glukhovsky",
+    "rating": 4,
+    "dateRead": "2011",
+    "pages": 541
+  },
+  {
+    "isbn": "9780307269997",
+    "title": "The Girl Who Kicked the Hornet’s Nest (Millennium, #3)",
+    "author": "Stieg Larsson",
+    "rating": 5,
+    "dateRead": "2011",
+    "pages": 566
+  },
+  {
+    "isbn": "9780307269980",
+    "title": "The Girl Who Played with Fire (Millennium #2)",
+    "author": "Stieg Larsson",
+    "rating": 5,
+    "dateRead": "2011",
+    "pages": 503
+  },
+  {
+    "isbn": "9780670069019",
+    "title": "The Girl With the Dragon Tattoo (Millennium, #1)",
+    "author": "Stieg Larsson",
+    "rating": 5,
+    "dateRead": "2011",
+    "pages": 480
+  },
+  {
+    "isbn": "9780062389503",
+    "title": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "rating": 5,
+    "dateRead": null,
+    "pages": 256
+  },
+  {
+    "isbn": "gr-17832519",
+    "title": "Books of Blood, Vol. 1",
+    "author": "Clive Barker",
+    "rating": 5,
+    "dateRead": null,
+    "pages": 306
+  },
+  {
+    "isbn": "9780316769174",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "rating": 5,
+    "dateRead": null,
+    "pages": 277
+  },
+  {
+    "isbn": "gr-43035",
+    "title": "White Fang",
+    "author": "Jack London",
+    "rating": 5,
+    "dateRead": null,
+    "pages": 252
+  },
+  {
+    "isbn": "9780425188934",
+    "title": "The Damnation Game",
+    "author": "Clive Barker",
+    "rating": 5,
+    "dateRead": null,
+    "pages": 433
+  },
+  {
+    "isbn": "9788448919443",
+    "title": "Nirvana",
+    "author": "Pere Formiguera",
+    "rating": 4,
+    "dateRead": null,
+    "pages": 128
+  },
+  {
+    "isbn": "9780345498168",
+    "title": "Mass Effect: Revelation (Mass Effect, #1)",
+    "author": "Drew Karpyshyn",
+    "rating": 5,
+    "dateRead": null,
+    "pages": 323
+  },
+  {
+    "isbn": "9781843433026",
+    "title": "Nada",
+    "author": "Carmen Laforet",
+    "rating": 3,
+    "dateRead": null,
+    "pages": 244
+  },
+  {
+    "isbn": "9780760728505",
+    "title": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "rating": 3,
+    "dateRead": null,
+    "pages": 269
+  },
+  {
+    "isbn": "9780060929879",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "rating": 3,
+    "dateRead": null,
+    "pages": 288
+  }
+]

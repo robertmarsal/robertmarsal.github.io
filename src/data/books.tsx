@@ -1,16 +1,17 @@
-type Book = {
-  isbn: number;
+import booksData from "./books.generated.json";
+import blurbs from "./blurbs.json";
+
+export type Book = {
+  isbn: string;
   title: string;
   author: string;
-  blurb: string;
+  rating: number; // 0 = unrated, 1–5
+  dateRead?: string | null;
+  pages?: number | null;
+  blurb?: string;
 };
 
-export const books: Book[] = [
-  {
-    isbn: 9781837632749,
-    title: "Building Data Science Applications with FastAPI - Second Edition",
-    author: "François Voron",
-    blurb:
-      "A great introduction to FastAPI, covering a wide range of topics, from how dependency injection works to building real-time APIs with WebSockets. It also includes practical examples to help put the learned skills into practice.",
-  },
-];
+export const books: Book[] = booksData.map((book) => ({
+  ...book,
+  blurb: blurbs[book.isbn as keyof typeof blurbs] ?? undefined,
+}));
