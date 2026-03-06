@@ -22,7 +22,7 @@ export default async function Page() {
                 />
               </div>
               <div className="flex flex-col gap-1">
-                <div className="text-red-400 font-medium leading-snug">{book.title}</div>
+                <div className="text-[#FF6600] font-medium leading-snug">{book.title}</div>
                 <p className="text-xs text-neutral-400 uppercase tracking-wide">{book.author}</p>
                 <div className="pt-3 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">{book.blurb}</div>
               </div>

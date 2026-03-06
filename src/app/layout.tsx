@@ -30,17 +30,17 @@ export default function RootLayout({
         <nav className="border-b border-neutral-200 dark:border-neutral-800">
           <div className="container mx-auto px-6 py-4">
             <div className="flex items-center justify-between font-[family-name:var(--font-geist-mono)]">
-              <Link href="/" className="text-sm font-semibold tracking-tight hover:text-red-400 transition-colors">
+              <Link href="/" className="text-sm font-semibold tracking-tight hover:text-[#FF6600] transition-colors">
                 Robert Marsal
               </Link>
               <ul className="flex space-x-8 text-sm">
                 <li>
-                  <Link href="/" className="text-neutral-500 dark:text-neutral-400 hover:text-red-400 transition-colors">
+                  <Link href="/" className="text-neutral-500 dark:text-neutral-400 hover:text-[#FF6600] transition-colors">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link href="/books" className="text-neutral-500 dark:text-neutral-400 hover:text-red-400 transition-colors">
+                  <Link href="/books" className="text-neutral-500 dark:text-neutral-400 hover:text-[#FF6600] transition-colors">
                     Books
                   </Link>
                 </li>
