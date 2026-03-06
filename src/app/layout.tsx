@@ -27,17 +27,20 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <nav>
-          <div className="container mx-auto px-4 py-2">
-            <div className="flex justify-left font-[family-name:var(--font-geist-mono)]">
-              <ul className="flex space-x-8 py-4">
+        <nav className="border-b border-neutral-200 dark:border-neutral-800">
+          <div className="container mx-auto px-6 py-4">
+            <div className="flex items-center justify-between font-[family-name:var(--font-geist-mono)]">
+              <Link href="/" className="text-sm font-semibold tracking-tight hover:text-[#FF6600] transition-colors">
+                Robert Marsal
+              </Link>
+              <ul className="flex space-x-8 text-sm">
                 <li>
-                  <Link href="/" className="hover:text-red-400">
+                  <Link href="/" className="text-neutral-500 dark:text-neutral-400 hover:text-[#FF6600] transition-colors">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link href="/books" className="hover:text-red-400">
+                  <Link href="/books" className="text-neutral-500 dark:text-neutral-400 hover:text-[#FF6600] transition-colors">
                     Books
                   </Link>
                 </li>
@@ -46,9 +49,17 @@ export default function RootLayout({
           </div>
         </nav>
 
-        <div className="container mx-auto px-4 py-8 font-[family-name:var(--font-geist-mono)]">
+        <div className="container mx-auto px-6 py-12 font-[family-name:var(--font-geist-mono)]">
           {children}
         </div>
+
+        <footer className="border-t border-neutral-200 dark:border-neutral-800 mt-16">
+          <div className="container mx-auto px-6 py-6 font-[family-name:var(--font-geist-mono)]">
+            <p className="text-xs text-neutral-400">
+              &copy; {new Date().getFullYear()}
+            </p>
+          </div>
+        </footer>
       </body>
     </html>
   );
