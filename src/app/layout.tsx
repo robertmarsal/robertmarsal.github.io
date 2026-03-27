@@ -30,7 +30,10 @@ export default function RootLayout({
         <nav className="border-b border-neutral-200 dark:border-neutral-800">
           <div className="container mx-auto px-6 py-4">
             <div className="flex items-center justify-between font-[family-name:var(--font-geist-mono)]">
-              <Link href="/" className="text-sm font-semibold tracking-tight hover:text-[#FF6600] transition-colors">
+              <Link href="/" className="inline-flex items-center gap-2 text-sm font-semibold tracking-tight hover:text-[#FF6600] transition-colors">
+                <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="shrink-0">
+                  <polygon points="5,1 9,5 5,9 1,5" fill="#FF6600" />
+                </svg>
                 Rob Marsal
               </Link>
               <ul className="flex space-x-8 text-sm">
