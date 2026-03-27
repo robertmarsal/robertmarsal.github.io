@@ -1,5 +1,21 @@
 [
   {
+    "isbn": "9780876856833",
+    "title": "You Get So Alone at Times That it Just Makes Sense",
+    "author": "Charles Bukowski",
+    "rating": 4,
+    "dateRead": "2026",
+    "pages": 320
+  },
+  {
+    "isbn": "9798588333764",
+    "title": "Carl's Doomsday Scenario (Dungeon Crawler Carl, #2)",
+    "author": "Matt Dinniman",
+    "rating": 4,
+    "dateRead": "2026",
+    "pages": 351
+  },
+  {
     "isbn": "9781472258229",
     "title": "Kindred",
     "author": "Octavia E. Butler",
@@ -61,7 +77,7 @@
     "author": "Matt Dinniman",
     "rating": 4,
     "dateRead": "2025",
-    "pages": 446
+    "pages": 464
   },
   {
     "isbn": "9780008536817",

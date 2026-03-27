@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Robert Marsal | Home",
+  title: "Rob Marsal | Home",
 };
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
           <div className="container mx-auto px-6 py-4">
             <div className="flex items-center justify-between font-[family-name:var(--font-geist-mono)]">
               <Link href="/" className="text-sm font-semibold tracking-tight hover:text-[#FF6600] transition-colors">
-                Robert Marsal
+                Rob Marsal
               </Link>
               <ul className="flex space-x-8 text-sm">
                 <li>

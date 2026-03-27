@@ -6,7 +6,7 @@ import { books, type Book } from "@/data/books";
 function RatingDots({ rating }: { rating: number }) {
   if (rating === 0) return null;
   return (
-    <div className="flex gap-0.5 mt-1.5">
+    <div className="flex gap-0.5 mt-1.5" title={`${rating} out of 5 stars`}>
       {[1, 2, 3, 4, 5].map((i) => (
         <div
           key={i}
@@ -19,8 +19,14 @@ function RatingDots({ rating }: { rating: number }) {
 
 function BookCard({ book }: { book: Book }) {
   return (
-    <div className="group relative aspect-[2/3]">
-      <div className="relative w-full h-full rounded-sm overflow-hidden shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-2xl hover:z-10 cursor-default">
+    <a
+      href={`https://www.goodreads.com/search?q=${book.isbn}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      title={`${book.title} — ${book.author}`}
+      className="group relative aspect-[2/3] block"
+    >
+      <div className="relative w-full h-full rounded-sm overflow-hidden shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-2xl hover:z-10 cursor-pointer">
         <Image
           src={`/books/${book.isbn}.jpg`}
           alt={`${book.title} by ${book.author}`}
@@ -45,7 +51,7 @@ function BookCard({ book }: { book: Book }) {
         {/* Orange inset ring on hover */}
         <div className="absolute inset-0 ring-0 group-hover:ring-1 group-hover:ring-[#FF6600] ring-inset rounded-sm transition-all duration-300 pointer-events-none" />
       </div>
-    </div>
+    </a>
   );
 }
 
@@ -148,7 +154,12 @@ export default function Page() {
                   key={book.isbn}
                   className="flex gap-6 pb-10 border-b border-neutral-100 dark:border-neutral-800 last:border-0"
                 >
-                  <div className="shrink-0 w-[80px]">
+                  <a
+                    href={`https://www.goodreads.com/search?q=${book.isbn}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="shrink-0 w-[80px]"
+                  >
                     <div className="relative aspect-[2/3] overflow-hidden rounded-sm bg-neutral-100 dark:bg-neutral-900 shadow-sm">
                       <Image
                         src={`/books/${book.isbn}.jpg`}
@@ -158,11 +169,16 @@ export default function Page() {
                         sizes="80px"
                       />
                     </div>
-                  </div>
+                  </a>
                   <div className="flex flex-col gap-1">
-                    <div className="text-[#FF6600] font-medium leading-snug">
+                    <a
+                      href={`https://www.goodreads.com/search?q=${book.isbn}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#FF6600] font-medium leading-snug hover:underline"
+                    >
                       {book.title}
-                    </div>
+                    </a>
                     <p className="text-xs text-neutral-400 uppercase tracking-wide">
                       {book.author}
                     </p>
