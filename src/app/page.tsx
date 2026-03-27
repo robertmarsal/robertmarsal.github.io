@@ -15,8 +15,8 @@ export default function Home() {
         </p>
         <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
           I build software and write about what I&apos;m learning. Currently
-          interested in distributed systems, developer tooling, and the craft of
-          writing clear, maintainable code.
+          interested in distributed systems, developer tooling, reverse
+          engineering, and the craft of writing clear, maintainable code.
         </p>
       </section>
 
