@@ -1,59 +1,6 @@
 import Image from "next/image";
-import { books, type Book } from "@/data/books";
-
-
-
-function RatingDots({ rating }: { rating: number }) {
-  if (rating === 0) return null;
-  return (
-    <div className="flex gap-0.5 mt-1.5" title={`${rating} out of 5 stars`}>
-      {[1, 2, 3, 4, 5].map((i) => (
-        <div
-          key={i}
-          className={`w-1.5 h-1.5 ${i <= rating ? "bg-[#FF6600]" : "bg-neutral-600"}`}
-        />
-      ))}
-    </div>
-  );
-}
-
-function BookCard({ book }: { book: Book }) {
-  return (
-    <a
-      href={`https://www.goodreads.com/search?q=${book.isbn}`}
-      target="_blank"
-      rel="noopener noreferrer"
-      title={`${book.title} — ${book.author}`}
-      className="group relative aspect-[2/3] block"
-    >
-      <div className="relative w-full h-full rounded-sm overflow-hidden shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-2xl hover:z-10 cursor-pointer">
-        <Image
-          src={`/books/${book.isbn}.jpg`}
-          alt={`${book.title} by ${book.author}`}
-          fill
-          className="object-cover"
-          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
-        />
-
-        {/* Dark overlay with book info — slides up on hover */}
-        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/80 transition-all duration-300 ease-in-out flex flex-col justify-end p-2.5">
-          <div className="translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-            <p className="text-white text-xs font-medium leading-tight line-clamp-2">
-              {book.title}
-            </p>
-            <p className="text-neutral-400 text-[10px] mt-0.5 line-clamp-1">
-              {book.author}
-            </p>
-            <RatingDots rating={book.rating} />
-          </div>
-        </div>
-
-        {/* Orange inset ring on hover */}
-        <div className="absolute inset-0 ring-0 group-hover:ring-1 group-hover:ring-[#FF6600] ring-inset rounded-sm transition-all duration-300 pointer-events-none" />
-      </div>
-    </a>
-  );
-}
+import { books } from "@/data/books";
+import { BooksGrid, RatingDots } from "./BooksGrid";
 
 export default function Page() {
   const ratedBooks = books.filter((b) => b.rating > 0);
@@ -98,35 +45,7 @@ export default function Page() {
         ))}
       </div>
 
-      {(() => {
-        // Group books by year, preserving sort order
-        const groups: { year: string; books: typeof books }[] = [];
-        for (const book of books) {
-          const year = book.dateRead ?? "Unknown";
-          const last = groups[groups.length - 1];
-          if (last?.year === year) {
-            last.books.push(book);
-          } else {
-            groups.push({ year, books: [book] });
-          }
-        }
-        return groups.map(({ year, books: group }) => (
-          <div key={year} className="mb-10">
-            {/* Year separator */}
-            <div className="flex items-center gap-3 mb-4">
-              <span className="text-xs font-medium tracking-widest text-[#FF6600] uppercase">
-                {year}
-              </span>
-              <div className="flex-1 h-px bg-[#FF6600] opacity-30" />
-            </div>
-            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3">
-              {group.map((book) => (
-                <BookCard key={book.isbn} book={book} />
-              ))}
-            </div>
-          </div>
-        ));
-      })()}
+      <BooksGrid books={books} />
 
       {/* Reviews — only shown for books with a blurb in blurbs.json */}
       {books.some((b) => b.blurb) && (
