@@ -19,7 +19,7 @@ export function RatingDots({ rating }: { rating: number }) {
 }
 
 function parseSeries(title: string): string | null {
-  const match = title.match(/\(([^,)]+),\s*#[\d.]+\)/);
+  const match = title.match(/\(([^,)#]+),?\s*#[\d.]+[,\s]*\)/);
   return match ? match[1].trim() : null;
 }
 
