@@ -86,13 +86,15 @@ export default function Home() {
       </section>
 
       <section className="mb-16">
-        <h2 className="flex items-center gap-2 text-xs uppercase tracking-widest text-neutral-400 mb-4">
-          <svg width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="0" y="0" width="8" height="2" fill="#FF6600" />
-            <rect x="0" y="3" width="8" height="2" fill="#FF6600" />
-            <rect x="0" y="6" width="8" height="2" fill="#FF6600" />
-          </svg>
-          Projects
+        <h2 className="mb-4">
+          <a href="/projects" className="flex items-center gap-2 text-xs uppercase tracking-widest text-neutral-400 hover:text-[#FF6600] transition-colors">
+            <svg width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="0" y="0" width="8" height="2" fill="currentColor" />
+              <rect x="0" y="3" width="8" height="2" fill="currentColor" />
+              <rect x="0" y="6" width="8" height="2" fill="currentColor" />
+            </svg>
+            Projects
+          </a>
         </h2>
         <a
           href="https://layright.app"
@@ -131,22 +133,74 @@ export default function Home() {
             &rarr;
           </span>
         </a>
+        <div className="flex items-center justify-between gap-4 border border-neutral-200 bg-white/70 px-4 py-4 dark:border-neutral-800 dark:bg-neutral-950/30">
+          <div className="flex items-center gap-4">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 64 64"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              className="shrink-0"
+            >
+              <path
+                d="M32 10c-9.94 0-18 7.93-18 17.7 0 12.57 15.59 25.31 16.64 26.15a2.19 2.19 0 0 0 2.72 0C34.41 53.01 50 40.27 50 27.7 50 17.93 41.94 10 32 10Z"
+                fill="#ff0066"
+              />
+              <circle cx="32" cy="28" r="7.25" fill="#ffffff" />
+            </svg>
+            <div>
+              <div className="text-sm font-medium">
+                Travels Map
+              </div>
+              <p className="mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                Personal travels map web component
+              </p>
+            </div>
+          </div>
+          <div className="flex shrink-0 gap-4 text-xs">
+            <a
+              href="https://www.npmjs.com/package/travels-map"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#FF6600] hover:underline"
+            >
+              NPM
+            </a>
+            <a
+              href="https://github.com/robertmarsal/travels-map"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#FF6600] hover:underline"
+            >
+              Source
+            </a>
+          </div>
+        </div>
       </section>
 
       <section>
-        <h2 className="flex items-center gap-2 text-xs uppercase tracking-widest text-neutral-400 mb-4">
-          <svg width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="0" y="0" width="3" height="3" fill="#FF6600" />
-            <rect x="5" y="0" width="3" height="3" fill="#FF6600" />
-            <rect x="0" y="5" width="3" height="3" fill="#FF6600" />
-            <rect x="5" y="5" width="3" height="3" fill="#FF6600" />
-          </svg>
-          Data
+        <h2 className="mb-4">
+          <a href="/data" className="flex items-center gap-2 text-xs uppercase tracking-widest text-neutral-400 hover:text-[#FF6600] transition-colors">
+            <svg width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="0" y="0" width="3" height="3" fill="currentColor" />
+              <rect x="5" y="0" width="3" height="3" fill="currentColor" />
+              <rect x="0" y="5" width="3" height="3" fill="currentColor" />
+              <rect x="5" y="5" width="3" height="3" fill="currentColor" />
+            </svg>
+            Data
+          </a>
         </h2>
         <ul className="space-y-2">
           <li>
             <a href="/books" className="flex items-center justify-between group py-2 border-b border-neutral-100 dark:border-neutral-800">
               <span className="text-sm group-hover:text-[#FF6600] transition-colors">Books</span>
+              <span className="text-xs text-neutral-400">&rarr;</span>
+            </a>
+          </li>
+          <li>
+            <a href="/travels" className="flex items-center justify-between group py-2 border-b border-neutral-100 dark:border-neutral-800">
+              <span className="text-sm group-hover:text-[#FF6600] transition-colors">Travels</span>
               <span className="text-xs text-neutral-400">&rarr;</span>
             </a>
           </li>

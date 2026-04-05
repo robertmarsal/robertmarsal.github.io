@@ -1,0 +1,17 @@
+[
+  { "lat": 37.7412, "lng": -25.6756, "title": "Ponta Delgada - Portugal" },
+  { "lat": 37.861, "lng": -25.7288, "title": "Sete Cidades - Portugal" },
+  { "lat": 37.8058, "lng": -25.3231, "title": "Furnas - Portugal" },
+  { "lat": 35.6595, "lng": 139.7005, "title": "Shibuya - Japan" },
+  { "lat": 35.7148, "lng": 139.7967, "title": "Asakusa - Japan" },
+  { "lat": 35.6617, "lng": 139.6688, "title": "Shimokitazawa - Japan" },
+  { "lat": 44.4328, "lng": 26.1039, "title": "Old Town - Romania" },
+  { "lat": 44.4361, "lng": 26.0874, "title": "Cismigiu - Romania" },
+  { "lat": 44.4346, "lng": 26.05, "title": "Cotroceni - Romania" },
+  { "lat": 52.3731, "lng": 4.8836, "title": "Jordaan - Netherlands" },
+  { "lat": 52.3546, "lng": 4.891, "title": "De Pijp - Netherlands" },
+  { "lat": 52.3665, "lng": 4.8678, "title": "Oud-West - Netherlands" },
+  { "lat": 52.52, "lng": 13.405, "title": "Mitte - Germany" },
+  { "lat": 52.4986, "lng": 13.4034, "title": "Kreuzberg - Germany" },
+  { "lat": 52.5386, "lng": 13.4246, "title": "Prenzlauer Berg - Germany" }
+]

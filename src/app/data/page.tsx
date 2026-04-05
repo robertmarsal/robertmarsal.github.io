@@ -24,6 +24,12 @@ export default function DataPage() {
               <span className="text-xs text-neutral-400">&rarr;</span>
             </a>
           </li>
+          <li>
+            <a href="/travels" className="flex items-center justify-between group py-2 border-b border-neutral-100 dark:border-neutral-800">
+              <span className="text-sm group-hover:text-[#FF6600] transition-colors">Travels</span>
+              <span className="text-xs text-neutral-400">&rarr;</span>
+            </a>
+          </li>
         </ul>
       </section>
     </div>
