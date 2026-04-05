@@ -57,6 +57,31 @@ export default function Home() {
               </span>
             </a>
           </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/robertmarsal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 group"
+            >
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth="0"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                height="1.1em"
+                width="1.1em"
+                className="text-neutral-400 group-hover:text-[#FF6600] transition-colors shrink-0"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.345V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.369-1.85 3.601 0 4.266 2.37 4.266 5.455v6.286zM5.337 7.433a2.063 2.063 0 1 1 0-4.126 2.063 2.063 0 0 1 0 4.126zM7.119 20.452H3.555V9h3.564v11.452z"></path>
+              </svg>
+              <span className="text-sm text-neutral-600 dark:text-neutral-400 group-hover:text-[#FF6600] transition-colors">
+                linkedin.com/in/robertmarsal
+              </span>
+            </a>
+          </li>
         </ul>
       </section>
 
@@ -70,7 +95,9 @@ export default function Home() {
           Projects
         </h2>
         <a
-          href="/projects"
+          href="https://layright.app"
+          target="_blank"
+          rel="noopener noreferrer"
           className="group flex items-center justify-between gap-4 border border-neutral-200 bg-white/70 px-4 py-4 transition-colors hover:border-[#FF6600] dark:border-neutral-800 dark:bg-neutral-950/30"
         >
           <div className="flex items-center gap-4">
@@ -114,12 +141,12 @@ export default function Home() {
             <rect x="0" y="5" width="3" height="3" fill="#FF6600" />
             <rect x="5" y="5" width="3" height="3" fill="#FF6600" />
           </svg>
-          Writing
+          Data
         </h2>
         <ul className="space-y-2">
           <li>
             <a href="/books" className="flex items-center justify-between group py-2 border-b border-neutral-100 dark:border-neutral-800">
-              <span className="text-sm group-hover:text-[#FF6600] transition-colors">Book reviews</span>
+              <span className="text-sm group-hover:text-[#FF6600] transition-colors">Books</span>
               <span className="text-xs text-neutral-400">&rarr;</span>
             </a>
           </li>
