@@ -43,6 +43,11 @@ export default function RootLayout({
                   </Link>
                 </li>
                 <li>
+                  <Link href="/projects" className="text-neutral-500 dark:text-neutral-400 hover:text-[#FF6600] transition-colors">
+                    Projects
+                  </Link>
+                </li>
+                <li>
                   <Link href="/books" className="text-neutral-500 dark:text-neutral-400 hover:text-[#FF6600] transition-colors">
                     Books
                   </Link>

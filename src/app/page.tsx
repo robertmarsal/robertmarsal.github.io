@@ -60,6 +60,52 @@ export default function Home() {
         </ul>
       </section>
 
+      <section className="mb-16">
+        <h2 className="flex items-center gap-2 text-xs uppercase tracking-widest text-neutral-400 mb-4">
+          <svg width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="0" y="0" width="8" height="2" fill="#FF6600" />
+            <rect x="0" y="3" width="8" height="2" fill="#FF6600" />
+            <rect x="0" y="6" width="8" height="2" fill="#FF6600" />
+          </svg>
+          Projects
+        </h2>
+        <a
+          href="/projects"
+          className="group flex items-center justify-between gap-4 border border-neutral-200 bg-white/70 px-4 py-4 transition-colors hover:border-[#FF6600] dark:border-neutral-800 dark:bg-neutral-950/30"
+        >
+          <div className="flex items-center gap-4">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              className="shrink-0"
+            >
+              <rect width="32" height="32" rx="6" fill="#b5651d" />
+              <rect x="3" y="3" width="11" height="7" rx="1.5" fill="#f5e6d8" />
+              <rect x="17" y="3" width="12" height="7" rx="1.5" fill="#e8c89a" />
+              <rect x="3" y="13" width="7" height="7" rx="1.5" fill="#e8c89a" />
+              <rect x="13" y="13" width="16" height="7" rx="1.5" fill="#f5e6d8" />
+              <rect x="3" y="23" width="16" height="6" rx="1.5" fill="#f5e6d8" />
+              <rect x="22" y="23" width="7" height="6" rx="1.5" fill="#e8c89a" />
+            </svg>
+            <div>
+              <div className="text-sm font-medium transition-colors group-hover:text-[#FF6600]">
+                LayRight
+              </div>
+              <p className="mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                Wood flooring layout planner
+              </p>
+            </div>
+          </div>
+          <span className="text-xs text-neutral-400 transition-colors group-hover:text-[#FF6600]">
+            &rarr;
+          </span>
+        </a>
+      </section>
+
       <section>
         <h2 className="flex items-center gap-2 text-xs uppercase tracking-widest text-neutral-400 mb-4">
           <svg width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
