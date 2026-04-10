@@ -1,6 +1,12 @@
 import booksData from "./books.generated.json";
 import blurbs from "./blurbs.json";
 
+/** Series name from Goodreads-style titles, e.g. `(The Horus Heresy, #13)`. */
+export function parseSeriesFromTitle(title: string): string | null {
+  const match = title.match(/\(([^,)#]+),?\s*#[\d.]+[,\s]*\)/);
+  return match ? match[1].trim() : null;
+}
+
 export type Book = {
   isbn: string;
   title: string;

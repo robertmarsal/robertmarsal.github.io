@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import type { Book } from "@/data/books";
+import { parseSeriesFromTitle, type Book } from "@/data/books";
 
 export function RatingDots({ rating }: { rating: number }) {
   if (rating === 0) return null;
@@ -18,18 +18,13 @@ export function RatingDots({ rating }: { rating: number }) {
   );
 }
 
-function parseSeries(title: string): string | null {
-  const match = title.match(/\(([^,)#]+),?\s*#[\d.]+[,\s]*\)/);
-  return match ? match[1].trim() : null;
-}
-
 export function BooksGrid({ books }: { books: Book[] }) {
   const [hoveredSeries, setHoveredSeries] = useState<string | null>(null);
 
   // isbn -> series name
   const seriesMap = new Map<string, string>();
   for (const book of books) {
-    const series = parseSeries(book.title);
+    const series = parseSeriesFromTitle(book.title);
     if (series) seriesMap.set(book.isbn, series);
   }
 
