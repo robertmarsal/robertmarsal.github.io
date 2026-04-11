@@ -9,9 +9,10 @@
  * How to export from Goodreads:
  *   My Books → Import and Export → Export Library
  *
- * Cover images are fetched via Open Library and Google Books (no API key needed).
- * Books with an ISBN are looked up by ISBN. Books without an ISBN are searched
- * by title + author. Books missing an ISBN use a stable "gr-{id}" identifier.
+ * Cover images are fetched from Goodreads (when the CSV has a Book Id), Google Books,
+ * and Open Library (no API key needed). Books with an ISBN are looked up by ISBN.
+ * Books without an ISBN are searched by title + author. Books missing an ISBN use
+ * a stable "gr-{id}" identifier.
  *
  * Blurbs/reviews are NOT managed by this script — edit src/data/blurbs.json
  * manually and they will be merged in at build time.
@@ -118,11 +119,16 @@ async function downloadCoverByISBN(isbn, bookId) {
     return true;
   }
 
-  // 1. Open Library by ISBN (free, no key needed)
-  console.log(`  Open Library by ISBN: ${isbn}`);
-  if (await download(`https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`, dest)) return true;
+  // 1. Goodreads (exact edition from your export; often higher-res than Open Library "L")
+  if (bookId) {
+    try {
+      console.log(`  Goodreads page scrape: book ID ${bookId}`);
+      const url = await coverUrlFromGoodreads(bookId);
+      if (url && (await download(url, dest))) return true;
+    } catch { /* ignore */ }
+  }
 
-  // 2. Google Books by ISBN
+  // 2. Google Books by ISBN (API may expose extraLarge / large)
   try {
     console.log(`  Google Books by ISBN: ${isbn}`);
     const data = await fetch(
@@ -132,14 +138,9 @@ async function downloadCoverByISBN(isbn, bookId) {
     if (thumbnail && (await download(thumbnail, dest))) return true;
   } catch { /* ignore */ }
 
-  // 3. Goodreads page scrape — most likely to have the exact cover
-  if (bookId) {
-    try {
-      console.log(`  Goodreads page scrape: book ID ${bookId}`);
-      const url = await coverUrlFromGoodreads(bookId);
-      if (url && (await download(url, dest))) return true;
-    } catch { /* ignore */ }
-  }
+  // 3. Open Library by ISBN (free, no key; "L" is not always as sharp as Goodreads)
+  console.log(`  Open Library by ISBN: ${isbn}`);
+  if (await download(`https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`, dest)) return true;
 
   console.log(`  No cover found for ISBN ${isbn}`);
   return false;
@@ -181,6 +182,17 @@ function fetchHtml(url, redirectCount = 0) {
   });
 }
 
+/** Strip Goodreads/Amazon CDN dimension codes (e.g. ._SX98_SY475_) for a full-size asset. */
+function upgradeGoodreadsCoverUrl(url) {
+  if (!url) return url;
+  const isGoodreadsCdn =
+    url.includes("gr-assets.com") ||
+    url.includes("media-amazon.com/images/S/compressed.photo.goodreads.com");
+  if (!isGoodreadsCdn) return url;
+  // e.g. .../157993._SX98_.jpg or .../157993._SX98_SY160_.jpg → .../157993.jpg
+  return url.replace(/\._(?:[A-Z]{1,3}\d+(?:_[A-Z]{1,3}\d+)*)_(?=\.[^./]+(?:\?|$))/i, "");
+}
+
 async function coverUrlFromGoodreads(bookId) {
   const html = await fetchHtml(`https://www.goodreads.com/book/show/${bookId}`);
   // og:image can appear in either attribute order
@@ -189,7 +201,7 @@ async function coverUrlFromGoodreads(bookId) {
     html.match(/content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
   const url = match?.[1];
   if (!url || url.includes("nophoto") || url.includes("nocover")) return null;
-  return url;
+  return upgradeGoodreadsCoverUrl(url);
 }
 
 // ---------------------------------------------------------------------------
@@ -199,7 +211,10 @@ function bestGoogleThumbnail(data) {
     const links = item.volumeInfo?.imageLinks;
     const url =
       links?.extraLarge ?? links?.large ?? links?.medium ?? links?.thumbnail;
-    if (url) return url.replace("http://", "https://").replace("zoom=1", "zoom=3");
+    if (url)
+      return url
+        .replace("http://", "https://")
+        .replace(/zoom=\d+/i, "zoom=5");
   }
   return null;
 }

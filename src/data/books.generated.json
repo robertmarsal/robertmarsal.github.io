@@ -1,5 +1,21 @@
 [
   {
+    "isbn": "9781844168842",
+    "title": "The First Heretic (The Horus Heresy, #14)",
+    "author": "Aaron Dembski-Bowden",
+    "rating": 5,
+    "dateRead": "2026",
+    "pages": 503
+  },
+  {
+    "isbn": "9781405972901",
+    "title": "Weird Fiction: An Anthology",
+    "author": "Edgar Allan Poe",
+    "rating": 4,
+    "dateRead": "2026",
+    "pages": 208
+  },
+  {
     "isbn": "9780876856833",
     "title": "You Get So Alone at Times That it Just Makes Sense",
     "author": "Charles Bukowski",
@@ -48,12 +64,12 @@
     "pages": 760
   },
   {
-    "isbn": "gr-54870256",
+    "isbn": "9798721503788",
     "title": "There Is No Antimemetics Division",
     "author": "qntm",
     "rating": 4,
     "dateRead": "2026",
-    "pages": 220
+    "pages": 227
   },
   {
     "isbn": "9781844168088",
@@ -296,12 +312,12 @@
     "pages": 224
   },
   {
-    "isbn": "9781680683585",
-    "title": "Not Till We Are Lost (Bobiverse)",
+    "isbn": "9781680683455",
+    "title": "Not Till We Are Lost (Bobiverse #5)",
     "author": "Dennis E. Taylor",
     "rating": 5,
     "dateRead": "2025",
-    "pages": 361
+    "pages": 354
   },
   {
     "isbn": "9780141185774",
@@ -501,7 +517,7 @@
     "author": "Kurt Vonnegut Jr.",
     "rating": 5,
     "dateRead": "2024",
-    "pages": 282
+    "pages": 288
   },
   {
     "isbn": "9781784963316",
@@ -3098,7 +3114,7 @@
   {
     "isbn": "gr-112",
     "title": "Children of Dune (Dune #3)",
-    "author": "Frank Herbert",
+    "author": "Frank Patrick Herbert",
     "rating": 3,
     "dateRead": "2014",
     "pages": 408
@@ -3186,7 +3202,7 @@
   {
     "isbn": "9780441172696",
     "title": "Dune Messiah (Dune #2)",
-    "author": "Frank Herbert",
+    "author": "Frank Patrick Herbert",
     "rating": 4,
     "dateRead": "2013",
     "pages": 331
@@ -3210,7 +3226,7 @@
   {
     "isbn": "9780340839935",
     "title": "Dune (Dune #1)",
-    "author": "Frank Herbert",
+    "author": "Frank Patrick Herbert",
     "rating": 5,
     "dateRead": "2013",
     "pages": 604
