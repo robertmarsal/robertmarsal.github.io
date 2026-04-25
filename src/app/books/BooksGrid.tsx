@@ -18,7 +18,13 @@ export function RatingDots({ rating }: { rating: number }) {
   );
 }
 
-export function BooksGrid({ books }: { books: Book[] }) {
+export function BooksGrid({
+  books,
+  onSelectBook,
+}: {
+  books: Book[];
+  onSelectBook: (book: Book) => void;
+}) {
   const [hoveredSeries, setHoveredSeries] = useState<string | null>(null);
 
   // isbn -> series name
@@ -61,19 +67,19 @@ export function BooksGrid({ books }: { books: Book[] }) {
                 hoveredSeries !== null && series !== hoveredSeries;
 
               return (
-                <a
+                <button
+                  type="button"
                   key={book.isbn}
-                  href={`https://www.goodreads.com/search?q=${book.isbn}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   title={`${book.title} — ${book.author}`}
                   className={`group relative aspect-[2/3] block transition-opacity duration-200 ${
                     isDimmed ? "opacity-25" : "opacity-100"
                   }`}
+                  aria-label={`Open details for ${book.title} by ${book.author}`}
                   onMouseEnter={() =>
                     series ? setHoveredSeries(series) : setHoveredSeries(null)
                   }
                   onMouseLeave={() => setHoveredSeries(null)}
+                  onClick={() => onSelectBook(book)}
                 >
                   <div className="relative w-full h-full rounded-sm overflow-hidden shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-2xl hover:z-10 cursor-pointer">
                     <Image
@@ -115,7 +121,7 @@ export function BooksGrid({ books }: { books: Book[] }) {
                       </div>
                     )}
                   </div>
-                </a>
+                </button>
               );
             })}
           </div>
