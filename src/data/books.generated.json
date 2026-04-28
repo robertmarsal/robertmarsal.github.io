@@ -1,5 +1,21 @@
 [
   {
+    "isbn": "9780374619329",
+    "title": "Enshittification: Why Everything Suddenly Got Worse and What to Do About It",
+    "author": "Cory Doctorow",
+    "rating": 3,
+    "dateRead": "2026",
+    "pages": 338
+  },
+  {
+    "isbn": "9781838956240",
+    "title": "In Ascension",
+    "author": "Martin MacInnes",
+    "rating": 3,
+    "dateRead": "2026",
+    "pages": 496
+  },
+  {
     "isbn": "9781844168842",
     "title": "The First Heretic (The Horus Heresy, #14)",
     "author": "Aaron Dembski-Bowden",
@@ -3114,7 +3130,7 @@
   {
     "isbn": "gr-112",
     "title": "Children of Dune (Dune #3)",
-    "author": "Frank Patrick Herbert",
+    "author": "Frank Herbert",
     "rating": 3,
     "dateRead": "2014",
     "pages": 408
@@ -3201,8 +3217,8 @@
   },
   {
     "isbn": "9780441172696",
-    "title": "Dune Messiah (Dune #2)",
-    "author": "Frank Patrick Herbert",
+    "title": "Dune Messiah (Dune, #2)",
+    "author": "Frank Herbert",
     "rating": 4,
     "dateRead": "2013",
     "pages": 331
@@ -3225,8 +3241,8 @@
   },
   {
     "isbn": "9780340839935",
-    "title": "Dune (Dune #1)",
-    "author": "Frank Patrick Herbert",
+    "title": "Dune (Dune, #1)",
+    "author": "Frank Herbert",
     "rating": 5,
     "dateRead": "2013",
     "pages": 604
