@@ -1,5 +1,21 @@
 [
   {
+    "isbn": "9781788166355",
+    "title": "Satantango",
+    "author": "László Krasznahorkai",
+    "rating": 2,
+    "dateRead": "2026",
+    "pages": 282
+  },
+  {
+    "isbn": "gr-57001971",
+    "title": "The Dungeon Anarchist's Cookbook (Dungeon Crawler Carl, #3)",
+    "author": "Matt Dinniman",
+    "rating": 4,
+    "dateRead": "2026",
+    "pages": 544
+  },
+  {
     "isbn": "9780374619329",
     "title": "Enshittification: Why Everything Suddenly Got Worse and What to Do About It",
     "author": "Cory Doctorow",
@@ -717,7 +733,7 @@
     "author": "Agatha Christie",
     "rating": 3,
     "dateRead": "2024",
-    "pages": 274
+    "pages": 347
   },
   {
     "isbn": "9780241363560",
@@ -773,7 +789,7 @@
     "author": "Gregor Hohpe",
     "rating": 4,
     "dateRead": "2023",
-    "pages": 364
+    "pages": 346
   },
   {
     "isbn": "9780356504261",
