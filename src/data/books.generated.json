@@ -1,5 +1,21 @@
 [
   {
+    "isbn": "9780983748427",
+    "title": "A Short Stay in Hell",
+    "author": "Steven L. Peck",
+    "rating": 4,
+    "dateRead": "2026",
+    "pages": 108
+  },
+  {
+    "isbn": "gr-10628",
+    "title": "Night Shift",
+    "author": "Stephen  King",
+    "rating": 5,
+    "dateRead": "2026",
+    "pages": 409
+  },
+  {
     "isbn": "9781788166355",
     "title": "Satantango",
     "author": "László Krasznahorkai",
@@ -1498,7 +1514,7 @@
   {
     "isbn": "9780091906818",
     "title": "How To Win Friends & Influence People",
-    "author": "Dale Carnegie",
+    "author": "Arthur R. Pell",
     "rating": 4,
     "dateRead": "2021",
     "pages": 268
@@ -3065,7 +3081,7 @@
   },
   {
     "isbn": "9780143038634",
-    "title": "Piercing",
+    "title": "Piercing: A Novel",
     "author": "Ryū Murakami",
     "rating": 3,
     "dateRead": "2014",
@@ -3561,7 +3577,7 @@
   },
   {
     "isbn": "gr-11",
-    "title": "The Hitchhiker’s Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)",
+    "title": "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)",
     "author": "Douglas Adams",
     "rating": 4,
     "dateRead": "2012",
