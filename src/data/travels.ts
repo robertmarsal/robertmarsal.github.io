@@ -138,4 +138,5 @@ export const travelPoints: TravelPoint[] = [
   { lat: 52.8064595, lng: -2.116443, title: "Stafford - United Kingdom" },
   { lat: 52.950526, lng: -1.158468, title: "Nottingham - United Kingdom" },
   { lat: 52.6585448, lng: -1.135908, title: "Leicester - United Kingdom" },
+  { lat: 51.2735442, lng: 0.5233904, title: "Maidstone - United Kingdom" },
 ];
