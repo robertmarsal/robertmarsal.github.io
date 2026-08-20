@@ -9,8 +9,9 @@
  * How to export from Goodreads:
  *   My Books → Import and Export → Export Library
  *
- * Cover images are fetched from Goodreads (when the CSV has a Book Id), Google Books,
- * and Open Library (no API key needed). Books with an ISBN are looked up by ISBN.
+ * Cover images are fetched from Hardcover (when HARDCOVER_API_KEY or
+ * HARDCOVER_API_TOKEN is set in the root .env file), Goodreads (when the CSV has a
+ * Book Id), Google Books, and Open Library. Books with an ISBN are looked up by ISBN.
  * Books without an ISBN are searched by title + author. Books missing an ISBN use
  * a stable "gr-{id}" identifier.
  *
@@ -27,6 +28,22 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const BOOKS_JSON = path.join(ROOT, "src/data/books.generated.json");
 const COVERS_DIR = path.join(ROOT, "public/books");
+const ENV_PATH = path.join(ROOT, ".env");
+
+// Keep this script dependency-free while allowing `npm run sync-goodreads` to
+// read the root .env file. Environment variables supplied by the shell win.
+try {
+  process.loadEnvFile(ENV_PATH);
+} catch (error) {
+  if (error.code !== "ENOENT") throw error;
+}
+
+const HARDCOVER_API_KEY = (
+  process.env.HARDCOVER_API_KEY || process.env.HARDCOVER_API_TOKEN || ""
+)
+  .trim()
+  .replace(/^Bearer\s+/i, "");
+const HARDCOVER_API_URL = "https://api.hardcover.app/v1/graphql";
 
 // ---------------------------------------------------------------------------
 // CSV parsing
@@ -75,51 +92,117 @@ function cleanISBN(raw) {
 // Cover image downloading
 // ---------------------------------------------------------------------------
 
-function download(url, dest) {
-  return new Promise((resolve) => {
-    const file = fs.createWriteStream(dest);
-    https
-      .get(url, (res) => {
-        if (res.statusCode === 301 || res.statusCode === 302) {
-          file.close();
-          fs.unlink(dest, () => {});
-          return download(res.headers.location, dest).then(resolve);
+async function download(url, dest) {
+  try {
+    const response = await fetch(url, {
+      headers: { "User-Agent": "robertmarsal.github.io Goodreads cover sync" },
+      redirect: "follow",
+      signal: AbortSignal.timeout(20_000),
+    });
+    if (!response.ok) return false;
+
+    const image = Buffer.from(await response.arrayBuffer());
+    // Open Library returns a 1×1 GIF placeholder when no cover exists.
+    if (image.length < 2000) return false;
+
+    // Write only validated data. This avoids failed requests leaving zero-byte
+    // files that make subsequent runs believe a cover is already present.
+    fs.writeFileSync(dest, image);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function hasUsableCover(dest) {
+  try {
+    return fs.statSync(dest).size >= 2000;
+  } catch {
+    return false;
+  }
+}
+
+function imageUrlFromCachedImage(image) {
+  if (typeof image === "string") return image;
+  if (image && typeof image.url === "string") return image.url;
+  return null;
+}
+
+async function coverUrlFromHardcover(isbn) {
+  if (!HARDCOVER_API_KEY) return null;
+
+  const query = `
+    query CoverByIsbn($isbn: String!) {
+      editions(
+        where: {
+          _or: [{ isbn_13: { _eq: $isbn } }, { isbn_10: { _eq: $isbn } }]
         }
-        if (res.statusCode !== 200) {
-          file.close();
-          fs.unlink(dest, () => {});
-          return resolve(false);
-        }
-        res.pipe(file);
-        file.on("finish", () => {
-          file.close(() => {
-            // Open Library returns a 1×1 GIF placeholder (~807 bytes) when no cover exists
-            const size = fs.statSync(dest).size;
-            if (size < 2000) {
-              fs.unlink(dest, () => {});
-              resolve(false);
-            } else {
-              resolve(true);
-            }
-          });
-        });
-      })
-      .on("error", () => {
-        file.close();
-        fs.unlink(dest, () => {});
-        resolve(false);
-      });
+        limit: 5
+      ) {
+        image { url }
+        cached_image
+        book { cached_image }
+      }
+    }
+  `;
+
+  const response = await fetch(HARDCOVER_API_URL, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${HARDCOVER_API_KEY}`,
+      "Content-Type": "application/json",
+      "User-Agent": "robertmarsal.github.io Goodreads cover sync/1.0",
+    },
+    body: JSON.stringify({ query, variables: { isbn } }),
+    signal: AbortSignal.timeout(20_000),
   });
+  const contentType = response.headers.get("content-type") || "unknown content type";
+  const body = await response.text();
+  let data;
+  try {
+    data = JSON.parse(body);
+  } catch {
+    const requestId = response.headers.get("x-request-id");
+    const requestReference = requestId ? ` (request ${requestId})` : "";
+    throw new Error(
+      `Hardcover API returned ${response.status} ${contentType}, not JSON${requestReference}`
+    );
+  }
+
+  if (!response.ok || data.errors) {
+    const message = data.errors?.map((error) => error.message).join("; ") || response.statusText;
+    throw new Error(`Hardcover API ${response.status}: ${message}`);
+  }
+
+  for (const edition of data.data?.editions ?? []) {
+    const url =
+      edition.image?.url ||
+      imageUrlFromCachedImage(edition.cached_image) ||
+      imageUrlFromCachedImage(edition.book?.cached_image);
+    if (url) return url;
+  }
+  return null;
 }
 
 async function downloadCoverByISBN(isbn, bookId) {
   const dest = path.join(COVERS_DIR, `${isbn}.jpg`);
-  if (fs.existsSync(dest)) {
+  if (hasUsableCover(dest)) {
     console.log(`  Cover already exists: ${isbn}`);
     return true;
   }
 
-  // 1. Goodreads (exact edition from your export; often higher-res than Open Library "L")
+  // 1. Hardcover by ISBN — authenticated and avoids relying on a scraped page.
+  if (HARDCOVER_API_KEY) {
+    try {
+      console.log(`  Hardcover by ISBN: ${isbn}`);
+      const url = await coverUrlFromHardcover(isbn);
+      if (url && (await download(url, dest))) return true;
+    } catch (error) {
+      console.warn(`  Hardcover lookup failed: ${error.message}`);
+    }
+  }
+
+  // 2. Goodreads (exact edition from your export; often higher-res than Open Library "L")
   if (bookId) {
     try {
       console.log(`  Goodreads page scrape: book ID ${bookId}`);
@@ -128,7 +211,7 @@ async function downloadCoverByISBN(isbn, bookId) {
     } catch { /* ignore */ }
   }
 
-  // 2. Google Books by ISBN (API may expose extraLarge / large)
+  // 3. Google Books by ISBN (API may expose extraLarge / large)
   try {
     console.log(`  Google Books by ISBN: ${isbn}`);
     const data = await fetch(
@@ -138,7 +221,7 @@ async function downloadCoverByISBN(isbn, bookId) {
     if (thumbnail && (await download(thumbnail, dest))) return true;
   } catch { /* ignore */ }
 
-  // 3. Open Library by ISBN (free, no key; "L" is not always as sharp as Goodreads)
+  // 4. Open Library by ISBN (free, no key; "L" is not always as sharp as Goodreads)
   console.log(`  Open Library by ISBN: ${isbn}`);
   if (await download(`https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`, dest)) return true;
 
@@ -221,7 +304,7 @@ function bestGoogleThumbnail(data) {
 
 async function downloadCoverByTitle(title, author, id, bookId) {
   const dest = path.join(COVERS_DIR, `${id}.jpg`);
-  if (fs.existsSync(dest)) {
+  if (hasUsableCover(dest)) {
     console.log(`  Cover already exists: ${id}`);
     return true;
   }

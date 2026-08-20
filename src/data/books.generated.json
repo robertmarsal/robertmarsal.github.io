@@ -1,5 +1,61 @@
 [
   {
+    "isbn": "9780340819791",
+    "title": "Fish!: A Remarkable Way to Boost Morale and Improve Results",
+    "author": "Stephen C. Lundin",
+    "rating": 2,
+    "dateRead": "2026",
+    "pages": 112
+  },
+  {
+    "isbn": "9781250285959",
+    "title": "I'm Starting to Worry About This Black Box of Doom",
+    "author": "Jason Pargin",
+    "rating": 5,
+    "dateRead": "2026",
+    "pages": 400
+  },
+  {
+    "isbn": "9781849700368",
+    "title": "Age of Darkness (The Horus Heresy, #16)",
+    "author": "Christian Z. Dunn",
+    "rating": 4,
+    "dateRead": "2026",
+    "pages": 416
+  },
+  {
+    "isbn": "9781614980544",
+    "title": "The Wide, Carnivorous Sky and Other Monstrous Geographies",
+    "author": "John  Langan",
+    "rating": 4,
+    "dateRead": "2026",
+    "pages": 322
+  },
+  {
+    "isbn": "9780593955970",
+    "title": "The Gate of the Feral Gods (Dungeon Crawler Carl, #4)",
+    "author": "Matt Dinniman",
+    "rating": 4,
+    "dateRead": "2026",
+    "pages": 589
+  },
+  {
+    "isbn": "9780553214208",
+    "title": "From the Earth to the Moon (Baltimore Gun Club, #1)",
+    "author": "Jules Verne",
+    "rating": 3,
+    "dateRead": "2026",
+    "pages": 240
+  },
+  {
+    "isbn": "9781844167760",
+    "title": "Prospero Burns (The Horus Heresy, #15)",
+    "author": "Dan Abnett",
+    "rating": 3,
+    "dateRead": "2026",
+    "pages": 444
+  },
+  {
     "isbn": "9780983748427",
     "title": "A Short Stay in Hell",
     "author": "Steven L. Peck",
@@ -757,7 +813,7 @@
     "author": "Luiza Sauma",
     "rating": 3,
     "dateRead": "2024",
-    "pages": 272
+    "pages": 258
   },
   {
     "isbn": "9780316392358",
@@ -833,7 +889,7 @@
   },
   {
     "isbn": "9780241557006",
-    "title": "Concorde: The thrilling account of history’s most extraordinary airliner",
+    "title": "Concorde: The Thrilling Account of History's Most Extraordinary Airliner",
     "author": "Mike Bannister",
     "rating": 5,
     "dateRead": "2023",
@@ -1033,7 +1089,7 @@
   },
   {
     "isbn": "9781841499888",
-    "title": "Leviathan Wakes (The Expanse, #1)",
+    "title": "Leviathan Wakes",
     "author": "James S.A. Corey",
     "rating": 5,
     "dateRead": "2023",
@@ -3081,7 +3137,7 @@
   },
   {
     "isbn": "9780143038634",
-    "title": "Piercing: A Novel",
+    "title": "Piercing",
     "author": "Ryū Murakami",
     "rating": 3,
     "dateRead": "2014",
@@ -3401,11 +3457,11 @@
   },
   {
     "isbn": "9780802131782",
-    "title": "Tropic of Cancer (Tropic, #1)",
+    "title": "Tropic of Cancer",
     "author": "Henry Miller",
     "rating": 3,
     "dateRead": "2013",
-    "pages": 318
+    "pages": 352
   },
   {
     "isbn": "9781841955001",
