@@ -52,7 +52,8 @@ export default function Page() {
   return (
     <div className="max-w-4xl">
       <div className="mb-10">
-        <h1 className="text-3xl font-semibold tracking-tight mb-2">Books</h1>
+        <p className="mb-3 text-[10px] uppercase tracking-[0.3em] text-[#FF6600]">The personal library</p>
+        <h1 className="text-4xl font-semibold tracking-tight mb-3">A life in books.</h1>
         <p className="text-neutral-500 dark:text-neutral-400 text-sm">
           I love reading — books and audiobooks alike. Here&apos;s what I&apos;ve been getting through.
         </p>
@@ -107,7 +108,7 @@ export default function Page() {
                 </div>
                 <div className="text-right">
                   <div className="text-2xl font-semibold tabular-nums">
-                    {yearInsights[0]?.[1] ?? "—"}
+                    {yearInsights.length ? maxYearCount : "—"}
                   </div>
                   <div className="text-[10px] uppercase tracking-widest text-neutral-400">
                     best year

@@ -1,132 +1,76 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
 import { parseSeriesFromTitle, type Book } from "@/data/books";
+import styles from "./books.module.css";
 
 export function RatingDots({ rating }: { rating: number }) {
-  if (rating === 0) return null;
+  if (!rating) return null;
   return (
-    <div className="flex gap-0.5 mt-1.5" title={`${rating} out of 5 stars`}>
+    <span className="mt-1.5 flex gap-1" role="img" aria-label={`${rating} out of 5 stars`}>
       {[1, 2, 3, 4, 5].map((i) => (
-        <div
-          key={i}
-          className={`w-1.5 h-1.5 ${i <= rating ? "bg-[#FF6600]" : "bg-neutral-600"}`}
-        />
+        <span key={i} className={`h-1 w-1 rounded-full ${i <= rating ? "bg-[#FF6600]" : "bg-neutral-300 dark:bg-neutral-700"}`} />
       ))}
-    </div>
+    </span>
   );
 }
 
-export function BooksGrid({
-  books,
-  onSelectBook,
-}: {
+function volume(book: Book) {
+  return Number(book.title.match(/#([\d.]+)/)?.[1] ?? Infinity);
+}
+
+export function BooksGrid({ books, grouping, onSelectBook }: {
   books: Book[];
+  grouping: "year" | "series";
   onSelectBook: (book: Book) => void;
 }) {
-  const [hoveredSeries, setHoveredSeries] = useState<string | null>(null);
-
-  // isbn -> series name
-  const seriesMap = new Map<string, string>();
+  const groups = new Map<string, Book[]>();
   for (const book of books) {
-    const series = parseSeriesFromTitle(book.title);
-    if (series) seriesMap.set(book.isbn, series);
+    const key = grouping === "series"
+      ? parseSeriesFromTitle(book.title) ?? "Standalone & other reads"
+      : book.dateRead ?? "Undated";
+    groups.set(key, [...(groups.get(key) ?? []), book]);
   }
-
-  // Group by year, preserving sort order
-  const groups: { year: string; books: Book[] }[] = [];
-  for (const book of books) {
-    const year = book.dateRead ?? "Unknown";
-    const last = groups[groups.length - 1];
-    if (last?.year === year) {
-      last.books.push(book);
-    } else {
-      groups.push({ year, books: [book] });
-    }
-  }
+  const ordered = [...groups.entries()].sort(([a], [b]) => grouping === "year"
+    ? a === "Undated" ? 1 : b === "Undated" ? -1 : b.localeCompare(a, undefined, { numeric: true })
+    : a === "Standalone & other reads" ? 1 : b === "Standalone & other reads" ? -1 : a.localeCompare(b));
 
   return (
-    <>
-      {groups.map(({ year, books: group }) => (
-        <div key={year} className="mb-10">
-          {/* Year separator */}
-          <div className="flex items-center gap-3 mb-4">
-            <span className="text-xs font-medium tracking-widest text-[#FF6600] uppercase">
-              {year}
-            </span>
-            <div className="flex-1 h-px bg-[#FF6600] opacity-30" />
+    <div className={styles.collection}>
+      {ordered.map(([label, group], index) => (
+        <section key={label} aria-label={label} className={styles.section}>
+          <div className={styles.sectionHeading}>
+            <span className={styles.sectionNumber}>{String(index + 1).padStart(2, "0")}</span>
+            <h2>{label}</h2>
+            <span className={styles.rule} />
+            <span className={styles.count}>{group.length} {group.length === 1 ? "book" : "books"}</span>
           </div>
-
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3">
-            {group.map((book) => {
-              const series = seriesMap.get(book.isbn);
-              const isSeriesSibling =
-                hoveredSeries !== null && series === hoveredSeries;
-              const isDimmed =
-                hoveredSeries !== null && series !== hoveredSeries;
-
+          <div className={styles.shelf}>
+            {(grouping === "series" ? [...group].sort((a, b) => volume(a) - volume(b)) : group).map((book) => {
+              const series = parseSeriesFromTitle(book.title);
+              const title = series ? book.title.replace(/\s*\([^)]*#[\d.]+[^)]*\)/, "").trim() : book.title;
               return (
-                <button
-                  type="button"
-                  key={book.isbn}
-                  title={`${book.title} — ${book.author}`}
-                  className={`group relative aspect-[2/3] block transition-opacity duration-200 ${
-                    isDimmed ? "opacity-25" : "opacity-100"
-                  }`}
+                <button type="button" key={book.isbn} className={styles.book}
                   aria-label={`Open details for ${book.title} by ${book.author}`}
-                  onMouseEnter={() =>
-                    series ? setHoveredSeries(series) : setHoveredSeries(null)
-                  }
-                  onMouseLeave={() => setHoveredSeries(null)}
-                  onClick={() => onSelectBook(book)}
-                >
-                  <div className="relative w-full h-full rounded-sm overflow-hidden shadow-sm transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-2xl hover:z-10 cursor-pointer">
-                    <Image
-                      src={`/books/${book.isbn}.jpg`}
-                      alt={`${book.title} by ${book.author}`}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
-                    />
-
-                    {/* Dark overlay with book info — slides up on hover */}
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/80 transition-all duration-300 ease-in-out flex flex-col justify-end p-2.5">
-                      <div className="translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                        <p className="text-white text-xs font-medium leading-tight line-clamp-2">
-                          {book.title}
-                        </p>
-                        <p className="text-neutral-400 text-[10px] mt-0.5 line-clamp-1">
-                          {book.author}
-                        </p>
-                        <RatingDots rating={book.rating} />
-                      </div>
-                    </div>
-
-                    {/* Orange inset ring — always on for series siblings, hover-only otherwise */}
-                    <div
-                      className={`absolute inset-0 ring-inset rounded-sm transition-all duration-200 pointer-events-none ${
-                        isSeriesSibling
-                          ? "ring-2 ring-[#FF6600]"
-                          : "ring-0 group-hover:ring-1 group-hover:ring-[#FF6600]"
-                      }`}
-                    />
-
-                    {/* Series label badge — shown on siblings when a series is hovered */}
-                    {isSeriesSibling && series && (
-                      <div className="absolute top-1.5 left-1.5 right-1.5 pointer-events-none">
-                        <span className="inline-block bg-[#FF6600] text-white text-[8px] font-semibold uppercase tracking-wider px-1 py-0.5 rounded-sm leading-none truncate max-w-full">
-                          {series}
-                        </span>
-                      </div>
-                    )}
-                  </div>
+                  onClick={() => onSelectBook(book)}>
+                  <span className={styles.coverSpace}>
+                    <span className={styles.cover}>
+                      <Image src={`/books/${book.isbn}.jpg`} alt="" fill className={styles.coverImage}
+                        sizes="(max-width: 480px) 40vw, (max-width: 768px) 27vw, 160px" />
+                    </span>
+                  </span>
+                  <span className={styles.caption}>
+                    <span className={styles.title}>{title}</span>
+                    <span className={styles.author}>{book.author}</span>
+                    <RatingDots rating={book.rating} />
+                    {series && <span className={styles.series}>{grouping === "series" ? `Volume ${volume(book)}` : series}</span>}
+                  </span>
                 </button>
               );
             })}
           </div>
-        </div>
+        </section>
       ))}
-    </>
+    </div>
   );
 }

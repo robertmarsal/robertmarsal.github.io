@@ -27,11 +27,13 @@ function filterBooksByQuery(books: Book[], raw: string): Book[] {
 
 export function BooksInteractive({ books }: { books: Book[] }) {
   const [query, setQuery] = useState("");
+  const [grouping, setGrouping] = useState<"year" | "series">("year");
+  const [favouritesOnly, setFavouritesOnly] = useState(false);
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
 
   const filtered = useMemo(
-    () => filterBooksByQuery(books, query),
-    [books, query]
+    () => filterBooksByQuery(books, query).filter((book) => !favouritesOnly || book.rating === 5),
+    [books, query, favouritesOnly]
   );
 
   const reviewed = useMemo(
@@ -76,21 +78,35 @@ export function BooksInteractive({ books }: { books: Book[] }) {
           spellCheck={false}
           className="w-full px-3 py-2.5 text-sm bg-[var(--background)] border border-neutral-200 dark:border-neutral-800 rounded-sm text-neutral-900 dark:text-neutral-100 placeholder:text-neutral-400 focus:outline-none focus:ring-1 focus:ring-[#FF6600] focus:border-[#FF6600]"
         />
-        {query.trim() && (
-          <p className="mt-2 text-xs text-neutral-500 dark:text-neutral-400">
-            {filtered.length === books.length
-              ? `${books.length} books`
-              : `${filtered.length} of ${books.length} books`}
-          </p>
-        )}
+      </div>
+
+      <div className="mb-8 flex flex-wrap items-center justify-between gap-4 border-b border-neutral-200 pb-4 dark:border-neutral-800">
+        <div className="flex flex-wrap items-center gap-3">
+          <div className="inline-flex rounded-md border border-neutral-200 p-1 dark:border-neutral-800" role="group" aria-label="Group books">
+            {(["year", "series"] as const).map((mode) => (
+              <button key={mode} type="button" aria-pressed={grouping === mode} onClick={() => setGrouping(mode)}
+                className={`rounded px-3 py-2 text-xs transition-colors focus-visible:outline-2 focus-visible:outline-[#FF6600] ${grouping === mode ? "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900" : "text-neutral-500 hover:text-[#FF6600] dark:text-neutral-400"}`}>
+                {mode === "year" ? "By year" : "By series"}
+              </button>
+            ))}
+          </div>
+          <button type="button" aria-pressed={favouritesOnly} onClick={() => setFavouritesOnly(!favouritesOnly)}
+            className={`rounded-md border px-3 py-2 text-xs focus-visible:outline-2 focus-visible:outline-[#FF6600] ${favouritesOnly ? "border-[#FF6600] bg-[#FF6600]/10 text-[#c44e00] dark:text-orange-400" : "border-neutral-200 text-neutral-500 dark:border-neutral-800 dark:text-neutral-400"}`}>
+            <span aria-hidden="true">☆ </span> Five-star reads
+          </button>
+        </div>
+        <p className="text-xs tabular-nums text-neutral-500 dark:text-neutral-400" role="status">
+          {filtered.length === books.length ? `${books.length} books on the shelf` : `${filtered.length} of ${books.length} books`}
+        </p>
       </div>
 
       {filtered.length === 0 ? (
         <p className="text-sm text-neutral-500 dark:text-neutral-400 py-8 text-center border border-dashed border-neutral-200 dark:border-neutral-800 rounded-sm">
-          No books match &ldquo;{query.trim()}&rdquo;.
+          No books match {query.trim() ? <>&ldquo;{query.trim()}&rdquo;</> : "these filters"}{favouritesOnly ? " with a five-star rating" : ""}.
+          <button type="button" className="mx-auto mt-3 block text-[#FF6600] hover:underline" onClick={() => { setQuery(""); setFavouritesOnly(false); }}>Clear filters</button>
         </p>
       ) : (
-        <BooksGrid books={filtered} onSelectBook={setSelectedBook} />
+        <BooksGrid books={filtered} grouping={grouping} onSelectBook={setSelectedBook} />
       )}
 
       {reviewed.length > 0 && (
@@ -122,12 +138,13 @@ export function BooksInteractive({ books }: { books: Book[] }) {
                   rel="noopener noreferrer"
                   className="shrink-0 w-[80px]"
                 >
-                  <div className="relative aspect-[2/3] overflow-hidden rounded-sm bg-neutral-100 dark:bg-neutral-900 shadow-sm">
+                  <div className="overflow-hidden rounded-sm shadow-sm">
                     <Image
                       src={`/books/${book.isbn}.jpg`}
                       alt={`${book.title} by ${book.author}`}
-                      fill
-                      className="object-cover"
+                      width={300}
+                      height={450}
+                      className="block h-auto w-full [aspect-ratio:auto]"
                       sizes="80px"
                     />
                   </div>
@@ -202,12 +219,13 @@ export function BooksInteractive({ books }: { books: Book[] }) {
               <div className="p-5 sm:p-6">
                 <div className="flex flex-col gap-6 sm:flex-row">
                   <div className="w-full max-w-[220px] shrink-0">
-                    <div className="relative aspect-[2/3] overflow-hidden rounded-sm bg-neutral-100 shadow-sm dark:bg-neutral-900">
+                    <div className="overflow-hidden rounded-sm shadow-sm">
                       <Image
                         src={`/books/${selectedBook.isbn}.jpg`}
                         alt={`${selectedBook.title} by ${selectedBook.author}`}
-                        fill
-                        className="object-cover"
+                        width={300}
+                        height={450}
+                        className="block h-auto w-full [aspect-ratio:auto]"
                         sizes="(max-width: 640px) 50vw, 220px"
                         priority
                       />
