@@ -1,5 +1,13 @@
 [
   {
+    "isbn": "9781849700870",
+    "title": "The Outcast Dead (The Horus Heresy, #17)",
+    "author": "Graham McNeill",
+    "rating": 5,
+    "dateRead": "2026",
+    "pages": 416
+  },
+  {
     "isbn": "9780340819791",
     "title": "Fish!: A Remarkable Way to Boost Morale and Improve Results",
     "author": "Stephen C. Lundin",
@@ -921,7 +929,7 @@
   },
   {
     "isbn": "gr-17905849",
-    "title": "Books of Blood: Volume 6",
+    "title": "Books of Blood, Volume 6 (Books of Blood #6)",
     "author": "Clive Barker",
     "rating": 5,
     "dateRead": "2023",
@@ -1009,7 +1017,7 @@
   },
   {
     "isbn": "gr-17905843",
-    "title": "Books of Blood: Volume 5",
+    "title": "Books of Blood, Volume 5 (Books of Blood #5)",
     "author": "Clive Barker",
     "rating": 4,
     "dateRead": "2023",
@@ -1961,7 +1969,7 @@
   },
   {
     "isbn": "9780141049236",
-    "title": "The Plague [Oct 26, 2010] Camus, Albert",
+    "title": "The Plague",
     "author": "Albert Camus",
     "rating": 4,
     "dateRead": "2020",
@@ -1969,7 +1977,7 @@
   },
   {
     "isbn": "gr-17859680",
-    "title": "Books of Blood: Volume 4 (Books of Blood #4)",
+    "title": "Books of Blood, Volume 4 (Books of Blood #4)",
     "author": "Clive Barker",
     "rating": 4,
     "dateRead": "2020",
@@ -2021,7 +2029,7 @@
     "author": "Kristin Hannah",
     "rating": 5,
     "dateRead": "2020",
-    "pages": 564
+    "pages": 440
   },
   {
     "isbn": "gr-32332537",
@@ -2033,7 +2041,7 @@
   },
   {
     "isbn": "gr-17859679",
-    "title": "Books of Blood: Volume 3 (Books of Blood #3)",
+    "title": "Books of Blood, Volume 3 (Books of Blood #3)",
     "author": "Clive Barker",
     "rating": 4,
     "dateRead": "2020",
@@ -3153,7 +3161,7 @@
   },
   {
     "isbn": "gr-17835762",
-    "title": "Books of Blood: Volume 2 (Books of Blood #2)",
+    "title": "Books of Blood, Volume 2 (Books of Blood #2)",
     "author": "Clive Barker",
     "rating": 4,
     "dateRead": "2014",
@@ -3685,7 +3693,7 @@
     "author": "Stieg Larsson",
     "rating": 5,
     "dateRead": "2011",
-    "pages": 566
+    "pages": 576
   },
   {
     "isbn": "9780307269980",
@@ -3713,7 +3721,7 @@
   },
   {
     "isbn": "gr-17832519",
-    "title": "Books of Blood, Vol. 1",
+    "title": "Books of Blood, Volume 1 (Books of Blood #1)",
     "author": "Clive Barker",
     "rating": 5,
     "dateRead": null,
