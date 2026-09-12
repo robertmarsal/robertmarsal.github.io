@@ -48,7 +48,7 @@ export function BooksGrid({ books, grouping, onSelectBook }: {
             <span className={styles.count}>{group.length} {group.length === 1 ? "book" : "books"}</span>
           </div>
           <div className={styles.shelf}>
-            {(grouping === "series" ? [...group].sort((a, b) => volume(b) - volume(a)) : group).map((book) => {
+            {(grouping === "series" ? [...group].sort((a, b) => volume(a) - volume(b)) : group).map((book) => {
               const series = parseSeriesFromTitle(book.title);
               const title = series ? book.title.replace(/\s*\([^)]*#[\d.]+[^)]*\)/, "").trim() : book.title;
               return (
