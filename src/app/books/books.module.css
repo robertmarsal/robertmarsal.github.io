@@ -38,10 +38,12 @@
 .book:focus-visible .cover { transform: translateY(-8px); }
 @media (hover: hover) { .book:hover .cover { transform: translateY(-8px); box-shadow: 5px 12px 14px #00000025, 15px 20px 28px #00000015; } .book:hover .title { color: #e85d00; } }
 .caption { display: flex; flex-direction: column; align-items: flex-start; padding-top: 14px; width: 100%; }
+.titleRow { display: flex; align-items: baseline; gap: 6px; width: 100%; min-width: 0; }
+.bookNumber { flex-shrink: 0; padding: 2px 5px; border-radius: 4px; background: #ff660010; color: #b74700; font: 10px/1.4 var(--font-geist-mono), monospace; font-variant-numeric: tabular-nums; }
 .title { font-size: 12px; font-weight: 600; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .author { margin-top: 4px; font-size: 11px; line-height: 1.5; color: var(--muted); }
 .series { margin-top: 9px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 9px; color: var(--muted); border: 1px solid var(--shelf-line); border-radius: 3px; padding: 2px 5px; }
 @media (max-width: 768px) { .shelf { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 1.25rem; } }
 @media (max-width: 480px) { .shelf { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (prefers-color-scheme: dark) { .collection { --shelf-line: #34312e; --muted: #a3a3a3; } .cover { box-shadow: 5px 8px 16px #0009; } }
+@media (prefers-color-scheme: dark) { .collection { --shelf-line: #34312e; --muted: #a3a3a3; } .bookNumber { background: #ff66001a; color: #ff9a57; } .cover { box-shadow: 5px 8px 16px #0009; } }
 @media (prefers-reduced-motion: reduce) { .cover { transition: none; } .book:hover .cover, .book:focus-visible .cover { transform: perspective(1200px) rotateY(-12deg); } }

@@ -31,9 +31,11 @@ export function BooksGrid({ books, grouping, onSelectBook }: {
       : book.dateRead ?? "Undated";
     groups.set(key, [...(groups.get(key) ?? []), book]);
   }
-  const ordered = [...groups.entries()].sort(([a], [b]) => grouping === "year"
-    ? a === "Undated" ? 1 : b === "Undated" ? -1 : b.localeCompare(a, undefined, { numeric: true })
-    : a === "Standalone & other reads" ? 1 : b === "Standalone & other reads" ? -1 : a.localeCompare(b));
+  const ordered = [...groups.entries()]
+    .filter(([label, group]) => grouping === "year" || label === "Standalone & other reads" || group.length > 1)
+    .sort(([a, aBooks], [b, bBooks]) => grouping === "year"
+      ? a === "Undated" ? 1 : b === "Undated" ? -1 : b.localeCompare(a, undefined, { numeric: true })
+      : a === "Standalone & other reads" ? 1 : b === "Standalone & other reads" ? -1 : bBooks.length - aBooks.length || a.localeCompare(b));
 
   return (
     <div className={styles.collection}>
@@ -46,7 +48,7 @@ export function BooksGrid({ books, grouping, onSelectBook }: {
             <span className={styles.count}>{group.length} {group.length === 1 ? "book" : "books"}</span>
           </div>
           <div className={styles.shelf}>
-            {(grouping === "series" ? [...group].sort((a, b) => volume(a) - volume(b)) : group).map((book) => {
+            {(grouping === "series" ? [...group].sort((a, b) => volume(b) - volume(a)) : group).map((book) => {
               const series = parseSeriesFromTitle(book.title);
               const title = series ? book.title.replace(/\s*\([^)]*#[\d.]+[^)]*\)/, "").trim() : book.title;
               return (
@@ -60,10 +62,15 @@ export function BooksGrid({ books, grouping, onSelectBook }: {
                     </span>
                   </span>
                   <span className={styles.caption}>
-                    <span className={styles.title}>{title}</span>
+                    <span className={styles.titleRow}>
+                      {series && grouping === "series" && (
+                        <span className={styles.bookNumber} aria-label={`Book ${volume(book)}`}>#{volume(book)}</span>
+                      )}
+                      <span className={styles.title}>{title}</span>
+                    </span>
                     <span className={styles.author}>{book.author}</span>
                     <RatingDots rating={book.rating} />
-                    {series && <span className={styles.series}>{grouping === "series" ? `Volume ${volume(book)}` : series}</span>}
+                    {series && grouping !== "series" && <span className={styles.series}>{series}</span>}
                   </span>
                 </button>
               );
